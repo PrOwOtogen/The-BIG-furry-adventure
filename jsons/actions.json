@@ -1,0 +1,62 @@
+{
+    "actions": {
+        "weight": {
+            "infos": {},
+            "remarks": {},
+            "idle": {}
+        },
+        "health": {
+            "infos": {
+                "h<50": [
+                    "[red]you should heal yourself and clean your clothes, you look liek you fought pretty hard",
+                    "[yellow]TIP:Use Potions to Regenerate Health, might help you to fight better"
+                ]
+            },
+            "remarks": {},
+            "idle": {}
+        },
+        "lust": {
+            "infos": {
+                "l<30": [
+                    ""
+                ],
+                "l<60": [
+                    ""
+                ],
+                "l<99": [
+                    ""
+                ],
+                "l<100": [
+                    ""
+                ]
+            },
+            "remarks": {},
+            "idle": {}
+        },
+        "other": {
+            "infos": {
+                "w<130": [
+                    "[purple]you stand there and do nothing, just looking around to find new things",
+                    "[purple]you wait a bit and clean your clothes",
+                    "[purple]you should fight for more gold to trade"
+                ]
+            },
+            "remarks": {},
+            "idle": {}
+        }
+    },
+    "a1": {
+        "idle": {
+            "text": {
+                "w<130": [
+                    "[yellow]w<130",
+                    "tests130"
+                ],
+                "w>130": [
+                    "w>130",
+                    "tests135"
+                ]
+            }
+        }
+    }
+}
