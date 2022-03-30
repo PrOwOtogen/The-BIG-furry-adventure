@@ -15,7 +15,7 @@ class enemy:
 class alex:
     def __init__(self):
         self.love = 0
-
+        self.inventory = {}
 
 # player
 
@@ -32,16 +32,28 @@ class Player:
         self.exp = 0
         self.lvl = 1
         self.rep = 0
-        #self.lust = 0
+        self.lust = 0
         self.diff = "easy"
-        self.weight = 0
-        self.muscle = 0
-        self.gold = 0
+        self.weight = 150
+        self.muscle = 120
+        self.gold = 10000
         self.loc = "a1"
         self.inv = {
             "sword": 1,
             "shield": 1,
             "potion": 1,
         }
+        self.equiped = {}
+        self.quests = {}
         self.playermult = 1
         self.enemymult = 1
+
+
+globitems = {
+    "sword": 10,
+    "shield": 8,
+    "potion": 7,
+    "potion2": 8,
+    "potion3": 3,
+    "food": 4,
+}

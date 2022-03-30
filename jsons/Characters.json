@@ -2,7 +2,7 @@
     "Alex_the_merchant": {
         "Greeting": {
             "w<130": "Hey <name> how was your day so far?",
-            "w130-100": "Hey there Tubby how can i help you?"
+            "w130-200": "Hey there Tubby how can i help you?"
         },
         "Trading": {}
     }

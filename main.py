@@ -2,6 +2,7 @@ from math import floor
 import random
 from tkinter import N
 from ent import *
+from npc_action import smalltalk
 import os
 import sys
 from rich import print
@@ -21,7 +22,7 @@ os.system("cls")
 NAME_TOM = {}
 
 
-nameoftxta = "[green][blink]Hey[/blink][/green]"
+nameoftxta = "[green][blink]The [italic bold]BIG[/italic bold] Furry Adventure[/blink][/green]"
 
 
 # NPCs
@@ -31,6 +32,7 @@ a_m = alex()
 # import from ent
 eny = enemy()
 myp = Player()
+globitem = globitems
 
 # other words for commands
 invent = ["inventory", "inv", "i"]
@@ -613,6 +615,15 @@ def fightloop():
         print(
             f"the {eny.name} attacked you for [green]{enymatk}[/green] damage")
         time.sleep(2)
+        # set every var from eny to 0
+        eny.name = "enemy"
+        eny.hp = 0
+        eny.maxhp = 0
+        eny.damage = 0
+        eny.xp = 0
+        eny.lvl = 1
+        eny.gold = 0
+
         # check if enemy is dead
         # check if player is dead
         if myp.hp <= 0:
@@ -673,7 +684,7 @@ def check_randomactions():
     #######
     #  {typ}  #
     #  {typ2}  #
-    ####### """)
+    # """)
     # print(rands["actions"]['a1']['none']['text']["w<130"])
     if typ == 1:
         # weight
@@ -741,13 +752,17 @@ def check_randomactions():
                     (rands["actions"]['lust']["remarks"]["l>90"]))
         elif typ2 == 3:
             if myp.lust < 30:
-                ret = random.choice((rands["actions"]['lust']["idle"]["l<30"]))
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l<30"]))
             elif myp.lust > 30 and myp.lust < 60:
-                ret = random.choice((rands["actions"]['lust']["idle"]["l>30"]))
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l>30"]))
             elif myp.lust > 60 and myp.lust < 90:
-                ret = random.choice((rands["actions"]['lust']["idle"]["l>60"]))
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l>60"]))
             elif myp.lust > 90:
-                ret = random.choice((rands["actions"]['lust']["idle"]["l>90"]))
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l>90"]))
 
     elif typ == 7:
         # loc
@@ -760,7 +775,8 @@ def check_randomactions():
             ret = random.choice(
                 (rands["actions"]['weight']['idle']["w<130"]))
         elif myp.weight > 130 and myp.weight < 200:
-            ret = random.choice((rands["actions"]['weight']['idle']["w>130"]))
+            ret = random.choice(
+                (rands["actions"]['weight']['idle']["w>130-200"]))
         elif myp.weight > 200:
             ret = random.choice((rands["actions"]['weight']['idle']["w>200"]))
         ret += random.choice(rands[myp.loc]["idle"]["text"])
@@ -791,13 +807,121 @@ def tradewithAlex():
     if myp.weight < 130:
         text = NPCs["Alex_the_merchant"]["Greeting"]["w<130"]
     elif myp.weight > 130 and myp.weight < 200:
-        text = NPCs["Alex_the_merchant"]["Greeting"]["w>130-200"]
+        text = NPCs["Alex_the_merchant"]["Greeting"]["w130-200"]
     elif myp.weight > 200:
         text = NPCs["Alex_the_merchant"]["Greeting"]["w>200"]
     text = text.replace("<name>", myp.name)
     smoothwrite(text, 0.05)
     time.sleep(1)
-    print("[yellow]trade\n[green]smalltalk\n[red]leave")
+    print("\n[yellow]trade\n[green]smalltalk\n[red]leave")
+    i = input(">").lower().strip()
+    if i in ["trade", "t"]:
+        trade()
+    elif i in ["smalltalk", "s"]:
+        smalltalk("Alex")
+    elif i == "leave":
+        maingameloop()
+    else:
+        print("[red]I don't understand")
+        time.sleep(1)
+        tradewithAlex()
+
+
+def trade():
+    print("[yellow]What do you want to do?")
+    print("[green]Buy items\n[red]Sell Items\n[blue]Leave")
+    i = input(">").lower().strip()
+    if i in ["buy", "b"]:
+        tradebuy()
+    elif i in ["sell", "s"]:
+        tradesell()
+    elif i in ["leave", "l"]:
+        maingameloop()
+    else:
+        print("[red]I don't understand")
+        time.sleep(1)
+        trade()
+
+
+def tradebuy():
+    buymult = 1
+    # check for money
+    if myp.gold == 0:
+        print("[red]You don't have any gold")
+        time.sleep(1)
+        trade()
+    if a_m.love < 20:
+        buymult = 1.5
+    elif a_m.love > 20 and a_m.love < 40:
+        buymult = 1.25
+    elif a_m.love > 40 and a_m.love < 60:
+        buymult = 1
+    elif a_m.love > 60 and a_m.love < 80:
+        buymult = 0.75
+    elif a_m.love > 80:
+        buymult = 0.5
+    smoothwrite("[yellow]What do you want to buy?\n", 0.05)
+    items = {"sword": round(12/buymult), "shield": round(10/buymult),
+             "armor": round(10/buymult), "potion": round(5/buymult)}
+    a_m.inventory.update(items)
+    table = Table(show_header=True, header_style="bold red")
+    table.add_column("Item", style="bold green")
+    table.add_column("price", style="bold yellow")
+    for i in a_m.inventory:
+        # create a rich table with item and price
+        table.add_row(str(i), str(a_m.inventory[i]))
+    print(table)
+    time.sleep(1)
+    buy = input("I want to buy: ").lower().strip()
+
+    if buy in a_m.inventory:
+        if myp.gold >= a_m.inventory[buy]:
+            myp.gold -= a_m.inventory[buy]
+            Icount = 1
+            for a in myp.inv:
+                if a == buy:
+                    Icount += 1
+            upd = {f"{buy}": Icount}
+            myp.inv.update(upd)
+            print("[green]You bought {} for {} gold".format(
+                buy, a_m.inventory[buy]))
+            time.sleep(1)
+        else:
+            print("[red]You don't have enough gold")
+            time.sleep(1)
+
+
+def tradesell():
+    sellmult = 1
+
+    if a_m.love < 20:
+        sellmult = 0.5
+    elif a_m.love > 20 and a_m.love < 40:
+        sellmult = 0.75
+    elif a_m.love > 40 and a_m.love < 60:
+        sellmult = 1
+    elif a_m.love > 60 and a_m.love < 80:
+        sellmult = 1.25
+    elif a_m.love > 80:
+        sellmult = 1.5
+    smoothwrite("What do you want to sell?\n", 0.05)
+    # make a table of items and prices
+    table = Table(show_header=True, header_style="bold red")
+    table.add_column("Item", style="bold green")
+    table.add_column("price", style="bold yellow")
+    for i in myp.inv:
+        if i in globitem:
+            table.add_row(str(i), str(round(globitem[i]*sellmult)))
+    print(table)
+    time.sleep(1)
+    sell = input("I want to sell: ").lower().strip()
+    if sell in myp.inv and sell in globitem:
+        myp.gold += round(globitem[sell]*sellmult)
+        myp.inv[sell] -= 1
+        if myp.inv[sell] == 0:
+            del myp.inv[sell]
+        print("[green]You sold {} for {} gold".format(
+            sell, round(globitem[sell]*sellmult)))
 
 
 start()

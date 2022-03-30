@@ -5,10 +5,10 @@
                 "w<130": [
                     ""
                 ],
-                "w<130-200": [
+                "w>130-200": [
                     "[magenta1] Your Belly rumbles slightly in hunger."
                 ],
-                "w<200": [
+                "w>200": [
                     ""
                 ]
             },
@@ -16,10 +16,10 @@
                 "w<130": [
                     ""
                 ],
-                "w<130-200": [
+                "w>130-200": [
                     ""
                 ],
-                "w<200": [
+                "w>200": [
                     ""
                 ]
             },
@@ -27,12 +27,12 @@
                 "w<130": [
                     ""
                 ],
-                "w<130-200": [
+                "w>130-200": [
                     "[magenta1] You rub your slightly distendet belly.",
                     "[magenta1]Your rub your bulging belly to calm down.",
                     "[magenta1]You rub your belly to calm down."
                 ],
-                "w<200": [
+                "w>200": [
                     ""
                 ]
             }
@@ -62,8 +62,34 @@
                     ""
                 ]
             },
-            "remarks": {},
-            "idle": {}
+            "remarks": {
+                "l<30": [
+                    ""
+                ],
+                "l<60": [
+                    ""
+                ],
+                "l<99": [
+                    ""
+                ],
+                "l<100": [
+                    ""
+                ]
+            },
+            "idle": {
+                "l<30": [
+                    ""
+                ],
+                "l<60": [
+                    ""
+                ],
+                "l<99": [
+                    ""
+                ],
+                "l<100": [
+                    ""
+                ]
+            }
         },
         "other": {
             "infos": {
