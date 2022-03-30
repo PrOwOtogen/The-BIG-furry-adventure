@@ -11,6 +11,12 @@ class enemy:
         self.lvl = 1
         self.gold = 0
 
+
+class alex:
+    def __init__(self):
+        self.love = 0
+
+
 # player
 
 

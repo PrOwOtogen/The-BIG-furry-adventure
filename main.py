@@ -24,6 +24,10 @@ NAME_TOM = {}
 nameoftxta = "[green][blink]Hey[/blink][/green]"
 
 
+# NPCs
+a_m = alex()
+
+
 # import from ent
 eny = enemy()
 myp = Player()
@@ -72,6 +76,7 @@ MAP = {
                   "book": 1,
                   "key": 2},
         "enemy": "none",
+        "NPC": "none",
         "isfought": False,
         "UP": "a1",
         "DOWN": "b1",
@@ -85,12 +90,28 @@ MAP = {
         "examine": "theres an Enemy",
         "items": {},
         "enemy": ["bandit", "orc"],
+        "NPC": "none",
         "isfought": False,
         "UP": "a2",
         "DOWN": "b2",
         "LEFT": "a1",
         "RIGHT": "a3"
-    }
+    },
+    "a3": {
+        "name": "Living Room",
+        "desc": "This is the Living Room of the Hotel",
+        "isexamined": False,
+        "examine": "You can see an muscular Otter",
+        "items": {},
+        "enemy": "NPC",
+        "NPC": "alex_the_merchant",
+        "isfought": False,
+        "UP": "a3",
+        "DOWN": "a3",
+        "LEFT": "a2",
+        "RIGHT": "a4"
+    },
+
 }
 
 
@@ -253,8 +274,7 @@ def maingameloop():
         print(table)
 
         # print hp
-        txt = check_randomactions()
-        print(txt)
+
         print(
             f"Your [orange]{myp.role}[/orange] has [orange]{myp.hp}[/orange] HP")
         print("0 ", end="")
@@ -268,7 +288,8 @@ def maingameloop():
         print(str(myp.hp))
 
         # print out random actions
-        print("#" * 50)
+        txt = check_randomactions()
+        print(txt)
 
         i = input("INP: ").lower().strip()
         if i in up:
@@ -448,7 +469,7 @@ def move(direction):
 
 def examine():
     os.system("cls")
-    if MAP[myp.loc]["enemy"] != "none":
+    if MAP[myp.loc]["enemy"] != "none" and not MAP[myp.loc]["enemy"] == "NPC":
         print(
             "There is an enemy here!\nDo you want to [green]fight[/green] or [green]run[/green]?")
         i = input("INP: ").lower().strip()
@@ -463,6 +484,16 @@ def examine():
             time.sleep(2)
             examine()
         # timer to wait 2 seconds
+    elif MAP[myp.loc]["enemy"] == "NPC":
+        print("There is an NPC here!")
+        print("Do you want to [green]talk[/green] or [green]not[/green]?")
+        i = input("INP: ").lower().strip()
+        if i == "talk":
+            NPC()
+        elif i == "not":
+            print("You didn´t talk to the NPC")
+            time.sleep(2)
+            maingameloop()
     else:
         c = 0
         if MAP[myp.loc]["items"] == {}:
@@ -626,35 +657,147 @@ def cal_enydmg():
 
 
 def check_randomactions():
-# 1 - weight
-# 2 - lust
-# 7 - loc
-    typ = random.randint(1,20)
+    # 1 - weight
+    # 2 - lust
+    # 7 - loc
+    # 9 - loc + weight
+    # 13 - loc + lust
+    # weight = magenta1
+    # lust = yellow2
+    # loc = green
+
+    ret = "[bright_magenta]#" * 50 + "\n"
+    typ = random.randint(1, 20)
+    typ2 = random.randint(1, 3)
+    print(f"""
+    #######
+    #  {typ}  #
+    #  {typ2}  #
+    ####### """)
     # print(rands["actions"]['a1']['none']['text']["w<130"])
-    a_w_idle = rands["actions"]["idle"]
-    a_idle = rands["actions"][myp.loc]["idle"]
-    if myp.loc in rands["actions"]:
-
-        
-        if typ == 1:
-            #weight
+    if typ == 1:
+        # weight
+        if typ2 == 1:
+            # infos
             if myp.weight < 130:
+                ret = random.choice(
+                    (rands["actions"]['weight']["infos"]["w<130"]))
+            elif myp.weight > 130 and myp.weight < 200:
+                ret = random.choice(
+                    (rands["actions"]['weight']["infos"]["w>130-200"]))
+            elif myp.weight > 200:
+                ret = random.choice(
+                    (rands["actions"]['weight']["infos"]["w>200"]))
+        elif typ2 == 2:
+            # actions
+            if myp.weight < 130:
+                ret = random.choice(
+                    (rands["actions"]['weight']["remarks"]["w<130"]))
+            elif myp.weight > 130 and myp.weight < 200:
+                ret = random.choice(
+                    (rands["actions"]['weight']["remarks"]["w>130-200"]))
+            elif myp.weight > 200:
+                ret = random.choice(
+                    (rands["actions"]['weight']["remarks"]["w>200"]))
+        elif typ2 == 3:
+            # idle
+            if myp.weight < 130:
+                ret = random.choice(
+                    (rands["actions"]['weight']["idle"]["w<130"]))
+            elif myp.weight > 130 and myp.weight < 200:
+                ret = random.choice(
+                    (rands["actions"]['weight']["idle"]["w>130-200"]))
+            elif myp.weight > 200:
+                ret = random.choice(
+                    (rands["actions"]['weight']["idle"]["w>200"]))
 
-                ret = random.choice(a_w_idle["text"]["w>130"])
-            elif myp.weight >=130 and myp.weight < 200:
-                ret = random.choice(a_w_idle["text"]["w<130"])
-        elif typ == 2:
-        #lust
+    elif typ == 2:
+        # lust
+        if typ2 == 1:
+            if myp.lust < 30:
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l<30"]))
+            elif myp.lust > 30 and myp.lust < 60:
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l>30"]))
+            elif myp.lust > 60 and myp.lust < 90:
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l>60"]))
+            elif myp.lust > 90:
+                ret = random.choice(
+                    (rands["actions"]['lust']["infos"]["l>90"]))
+        elif typ2 == 2:
+            if myp.lust < 30:
+                ret = random.choice(
+                    (rands["actions"]['lust']["remarks"]["l<30"]))
+            elif myp.lust > 30 and myp.lust < 60:
+                ret = random.choice(
+                    (rands["actions"]['lust']["remarks"]["l>30"]))
+            elif myp.lust > 60 and myp.lust < 90:
+                ret = random.choice(
+                    (rands["actions"]['lust']["remarks"]["l>60"]))
+            elif myp.lust > 90:
+                ret = random.choice(
+                    (rands["actions"]['lust']["remarks"]["l>90"]))
+        elif typ2 == 3:
+            if myp.lust < 30:
+                ret = random.choice((rands["actions"]['lust']["idle"]["l<30"]))
+            elif myp.lust > 30 and myp.lust < 60:
+                ret = random.choice((rands["actions"]['lust']["idle"]["l>30"]))
+            elif myp.lust > 60 and myp.lust < 90:
+                ret = random.choice((rands["actions"]['lust']["idle"]["l>60"]))
+            elif myp.lust > 90:
+                ret = random.choice((rands["actions"]['lust']["idle"]["l>90"]))
+
+    elif typ == 7:
+        # loc
+        if rands[myp.loc] == None:
             return
-        elif typ == 7:
-            #loc
-            if myp.weight < 130:
-                ret = random.choice(a_idle["text"]["w<130"])
-            elif myp.weight >=130 and myp.weight < 200:
-                ret = random.choice(a_idle["text"]["w>130"])
-        
+        else:
+            ret = random.choice(rands[myp.loc]["idle"]["text"])
+    elif typ == 9:
+        if myp.weight < 130:
+            ret = random.choice(
+                (rands["actions"]['weight']['idle']["w<130"]))
+        elif myp.weight > 130 and myp.weight < 200:
+            ret = random.choice((rands["actions"]['weight']['idle']["w>130"]))
+        elif myp.weight > 200:
+            ret = random.choice((rands["actions"]['weight']['idle']["w>200"]))
+        ret += random.choice(rands[myp.loc]["idle"]["text"])
 
+    elif myp.hp < 50:
+        ret = random.choice(rands["actions"]['health']["infos"]["h<50"])
     return ret
+
+
+def NPC():
+    if MAP[myp.loc]["NPC"] == "alex_the_merchant":
+        tradewithAlex()
+    else:
+        print("No NPC here")
+        time.sleep(2)
+    maingameloop()
+
+
+def smoothwrite(text, speed):
+    for i in text:
+        print(i, end="", flush=True)
+        time.sleep(speed)
+    return
+
+
+# NPC ACTIONS
+def tradewithAlex():
+    if myp.weight < 130:
+        text = NPCs["Alex_the_merchant"]["Greeting"]["w<130"]
+    elif myp.weight > 130 and myp.weight < 200:
+        text = NPCs["Alex_the_merchant"]["Greeting"]["w>130-200"]
+    elif myp.weight > 200:
+        text = NPCs["Alex_the_merchant"]["Greeting"]["w>200"]
+    text = text.replace("<name>", myp.name)
+    smoothwrite(text, 0.05)
+    time.sleep(1)
+    print("[yellow]trade\n[green]smalltalk\n[red]leave")
 
 
 start()
