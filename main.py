@@ -417,6 +417,9 @@ def removeItem(i):
 
 def move(direction):
     if direction in MAP[myp.loc]:
+        if MAP[myp.loc][direction] == myp.loc:
+            print("[red]You can´t go that way![/red]")
+            time.sleep(1)
         myp.loc = MAP[myp.loc][direction]
         maingameloop()
     else:
@@ -607,11 +610,6 @@ def check_randomactions():
     ret = "[bright_magenta]#" * 50 + "\n"
     typ = random.randint(1, 20)
     typ2 = random.randint(1, 3)
-    print(f"""
-    #######
-    #  {typ}  #
-    #  {typ2}  #
-    # """)
     # print(rands["actions"]['a1']['none']['text']["w<130"])
     if typ == 1:
         # weight

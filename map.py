@@ -13,7 +13,7 @@ MAP = {
         "NPC": "none",
         "isfought": False,
         "UP": "a1",
-        "DOWN": "b1",
+        "DOWN": "a1",
         "LEFT": "a1",
         "RIGHT": "a2"
     },
@@ -44,6 +44,20 @@ MAP = {
         "DOWN": "a3",
         "LEFT": "a2",
         "RIGHT": "a4"
+    },
+    "a4": {
+        "name": "Kitchen",
+        "desc": "This is the Kitchen of the Hotel",
+        "isexamined": False,
+        "examine": "You can see a dirty Kitchen",
+        "items": {},
+        "enemy": "NPC",
+        "NPC": "Jake_the_cook",
+        "isfought": False,
+        "UP": "a4",
+        "DOWN": "a4",
+        "LEFT": "a3",
+        "RIGHT": "a5"
     },
 
 }
