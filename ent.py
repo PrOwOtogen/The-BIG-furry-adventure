@@ -25,7 +25,7 @@ class Player:
         self.name = "ADMIN"
         self.hp = 60
         self.maxhp = 100
-        self.atk = 0
+        self.atk = 1
         self.defence = 0
         self.role = "ADMIN"
         self.mana = 0
@@ -36,7 +36,7 @@ class Player:
         self.diff = "easy"
         self.weight = 150
         self.muscle = 120
-        self.gold = 10000
+        self.gold = 0
         self.loc = "a1"
         self.inv = {
             "sword": 1,

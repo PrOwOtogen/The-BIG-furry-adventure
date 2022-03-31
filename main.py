@@ -1,12 +1,8 @@
 from math import floor
 import random
-from tkinter import N
-from ent import *
-from npc_action import smalltalk
 import os
 import sys
 from rich import print
-import logging
 from rich.logging import RichHandler
 import time
 from rich.console import Console
@@ -15,6 +11,13 @@ from rich.table import Column
 # import rich progress bar
 from rich.progress import Progress, BarColumn, TextColumn
 import json
+
+
+# import python files
+from npc_action import smalltalk
+from ent import *
+from map import MAP
+from calculations import *
 
 sys.path.append(".")
 os.system("cls")
@@ -66,55 +69,6 @@ myp.enemymult = 0
 myp.playermult = 0
 NPCs = impo_js("NPCs")
 rands = impo_js("rands")
-
-# map
-
-MAP = {
-    "a1": {
-        "name": "Bedroom",
-        "desc": "This is your Bedroom,",
-        "isexamined": False,
-        "items": {"food": 1,
-                  "book": 1,
-                  "key": 2},
-        "enemy": "none",
-        "NPC": "none",
-        "isfought": False,
-        "UP": "a1",
-        "DOWN": "b1",
-        "LEFT": "a1",
-        "RIGHT": "a2"
-    },
-    "a2": {
-        "name": "hallway",
-        "desc": "a Hallway, nothing special",
-        "isexamined": False,
-        "examine": "theres an Enemy",
-        "items": {},
-        "enemy": ["bandit", "orc"],
-        "NPC": "none",
-        "isfought": False,
-        "UP": "a2",
-        "DOWN": "b2",
-        "LEFT": "a1",
-        "RIGHT": "a3"
-    },
-    "a3": {
-        "name": "Living Room",
-        "desc": "This is the Living Room of the Hotel",
-        "isexamined": False,
-        "examine": "You can see an muscular Otter",
-        "items": {},
-        "enemy": "NPC",
-        "NPC": "alex_the_merchant",
-        "isfought": False,
-        "UP": "a3",
-        "DOWN": "a3",
-        "LEFT": "a2",
-        "RIGHT": "a4"
-    },
-
-}
 
 
 def start():
@@ -245,6 +199,7 @@ def helps():
 
 def maingameloop():
     while myp.hp > 0:
+        myp.hp = round(myp.hp)
         os.system("cls")
         # create rich table
         print("you are at: [green]{}[/green]".format(myp.loc))
@@ -607,6 +562,13 @@ def fightloop():
             print(f"you gained [green]{gold}[/green] gold")
             time.sleep(2)
             MAP[myp.loc]["enemy"] = "none"
+            eny.name = "enemy"
+            eny.hp = 0
+            eny.maxhp = 0
+            eny.damage = 0
+            eny.xp = 0
+            eny.lvl = 1
+            eny.gold = 0
             maingameloop()
         # enemy attacks
         enymatk = cal_enydmg()
@@ -616,55 +578,20 @@ def fightloop():
             f"the {eny.name} attacked you for [green]{enymatk}[/green] damage")
         time.sleep(2)
         # set every var from eny to 0
-        eny.name = "enemy"
-        eny.hp = 0
-        eny.maxhp = 0
-        eny.damage = 0
-        eny.xp = 0
-        eny.lvl = 1
-        eny.gold = 0
 
         # check if enemy is dead
         # check if player is dead
         if myp.hp <= 0:
             print(f"you died")
             time.sleep(2)
+            eny.name = "enemy"
+            eny.hp = 0
+            eny.maxhp = 0
+            eny.damage = 0
+            eny.xp = 0
+            eny.lvl = 1
+            eny.gold = 0
             maingameloop()
-
-
-def calc_dmg():
-    # calculate damage
-    dmg = myp.atk + ((myp.lvl*myp.playermult) / myp.atk * random.randint(1, 5))
-    return dmg
-
-
-def cal_getGold(eny):
-    # calculate gold
-    gold = eny * myp.playermult
-    # round gold
-    gold = round(gold)
-    return gold
-
-
-def cal_xp():
-    # calculate xp
-    xp = eny.xp + ((myp.lvl*myp.playermult) / random.randint(1, 5))
-    while xp >= 100:
-        myp.lvl += 1
-        print(f"you leveled up to [green]{myp.lvl}[/green]")
-        time.sleep(2)
-        xp -= 100
-    return
-
-
-def cal_enydmg():
-    # calculate damage
-    dmg = eny.atk + ((eny.lvl*myp.enemymult) / eny.atk *
-                     random.randint(1, 5)) - myp.defence
-    if dmg < 0:
-        eny.damage += 1
-        cal_enydmg()
-    return dmg
 
 
 def check_randomactions():
