@@ -4,6 +4,7 @@ import sys
 
 from characters.player import *
 from engine.printn import *
+from engine.conversion import *
 
 
 def mainmenu():
@@ -25,6 +26,7 @@ def mainmenu():
     else:
         print("Invalid input")
         time.sleep(2)
+        mainmenu()
 
 
 def startgame():
@@ -50,10 +52,27 @@ def startgame():
             myp.weight = 260
             # height in feet
             myp.height = 6.0
+            break
         elif choice == "2":
             myp.species = "Wolf"
             myp.weight = 200
             myp.height = 6.0
+            break
+        elif choice == "3":
+            myp.species = "Fox"
+            myp.weight = 150
+            myp.height = 5.8
+            break
+        else:
+            print("invalid Input")
+            continue
+    printn(f"Okay {myp.name} you´re a {myp.species} now\n\n")
+    ##print Stats
+    kg = lbstokg(myp.weight)
+    meter = feettometer(myp.height)
+    print(
+        f"Name:{myp.name}\nSpecies:{myp.species}\nWeight:{myp.weight} lbs/{kg} Kg\nHeight:{myp.height}'/ {meter}M"
+    )
 
 
 if __name__ == "__main__":
