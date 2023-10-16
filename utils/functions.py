@@ -1,17 +1,17 @@
 import json
-from Classes import *
+from utils.PlayerEnyClass import *
 import os
 import sys
 
 
 def getmap():
-    with open("map.json", "r") as f:
+    with open("./Jsons/map.json", "r") as f:
         map = json.load(f)
     return map
 
 
 def getitems():
-    with open("items.json", "r") as f:
+    with open("./Jsons/items.json", "r") as f:
         items = json.load(f)
     return items
 

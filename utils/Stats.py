@@ -1,4 +1,4 @@
-from Classes import *
+from utils.PlayerEnyClass import *
 
 
 def calcstats():

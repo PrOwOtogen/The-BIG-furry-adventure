@@ -12,10 +12,12 @@ import random
 import json
 import math
 
-from Classes import *
-from Stats import *
-from Textgen import *
-from functions import *
+
+from utils.PlayerEnyClass import myp as myp
+from utils.PlayerEnyClass import Enemy as Enemy
+from utils.Stats import *
+from utils.Textgen import *
+from utils.functions import *
 
 
 ##item dictionary
@@ -34,8 +36,7 @@ LOCATIONCODE : {
 }
 """
 
-mapd = {
-}
+mapd = {}
 
 
 def printn(c, t=0.8):
@@ -401,7 +402,7 @@ def maingameloop():
                     printn("There is no one to talk to\n")
                     time.sleep(1)
                     continue
-                from NPC_action import talkNPC
+                from utils.NPC_action import talkNPC
 
                 printn("Who do you want to talk to?\n")
                 table = Table(show_header=True, header_style="bold magenta")
