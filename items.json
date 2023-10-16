@@ -1,0 +1,608 @@
+{
+    "armor": {
+        "head": {
+            "leather cap": {
+                "name": "Leather Cap",
+                "type": "head",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A cap made of leather. It's not very protective, but it's better than nothing."
+            },
+            "snapback cap": {
+                "name": "Snapback Cap",
+                "type": "head",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A stylish cap with a flat brim and an adjustable snap closure. It adds a touch of urban flair to your outfit while offering minimal protection from the sun."
+            },
+            "beanie": {
+                "name": "Beanie",
+                "type": "head",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A cozy knit hat that hugs your head and keeps you warm during chilly days. It's a fashionable accessory that complements your casual attire."
+            },
+            "bucket hat": {
+                "name": "Bucket Hat",
+                "type": "head",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A wide-brimmed hat with a relaxed and laid-back vibe. Perfect for shielding your face from the sun while enjoying outdoor activities or simply adding a touch of '90s nostalgia to your look."
+            },
+            "baseball cap": {
+                "name": "Baseball Cap",
+                "type": "head",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A classic cap inspired by the sport of baseball. It features a curved brim and an adjustable strap at the back. Great for completing a casual and sporty ensemble."
+            },
+            "trucker hat": {
+                "name": "Trucker Hat",
+                "type": "head",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A retro-style hat with a mesh back and a foam front panel. The unique design and breathable mesh make it a trendy choice for outdoor adventures or adding a touch of urban style to your outfit."
+            },
+            "tactical helmet": {
+                "name": "Tactical Helmet",
+                "type": "head",
+                "armor": 3,
+                "weight": 3,
+                "value": 10,
+                "description": "A rugged helmet designed for tactical operations. It provides enhanced protection with a sturdy build, padding, and a mount for attaching accessories like a headlamp or camera. Ideal for adventurers who prioritize safety and functionality."
+            },
+            "cyber visor": {
+                "name": "Cyber Visor",
+                "type": "head",
+                "armor": 2,
+                "weight": 2,
+                "value": 8,
+                "description": "A futuristic visor with augmented reality capabilities. It overlays digital information onto the wearer's field of view, enhancing perception and granting access to various digital functionalities. A stylish choice for tech-savvy individuals."
+            },
+            "steampunk top hat": {
+                "name": "Steampunk Top Hat",
+                "type": "head",
+                "armor": 2,
+                "weight": 2,
+                "value": 12,
+                "description": "An extravagant top hat inspired by steampunk aesthetics. It features intricate gears, goggles, and ornate decorations. Aside from its fashionable appeal, it provides moderate protection against physical and elemental threats."
+            }
+        },
+        "chest": {
+            "denim jacket": {
+                "name": "Denim Jacket",
+                "type": "Chest",
+                "armor": 1,
+                "weight": 2,
+                "value": 10,
+                "description": "A classic denim jacket that never goes out of style. It adds a touch of rugged charm to your outfit while offering some protection against the elements. The faded patches and worn edges tell stories of adventures past, making you feel like a seasoned traveler."
+            },
+            "hooded sweatshirt": {
+                "name": "Hooded Sweatshirt",
+                "type": "Chest",
+                "armor": 1,
+                "weight": 1,
+                "value": 8,
+                "description": "A cozy hooded sweatshirt that wraps you in warmth and comfort. Its soft fabric and relaxed fit make it perfect for casual outings or lazy days. The hood provides a sense of privacy and anonymity, allowing you to retreat into your own world when needed."
+            },
+            "flannel shirt": {
+                "name": "Flannel Shirt",
+                "type": "Chest",
+                "armor": 1,
+                "weight": 1,
+                "value": 7,
+                "description": "A timeless flannel shirt that exudes a laid-back, rustic charm. Its plaid pattern and soft texture make it a versatile piece of clothing suitable for various occasions. Whether you're chopping wood or meeting friends at a local pub, this shirt is a reliable companion that combines style and comfort."
+            },
+            "graphic t-shirt": {
+                "name": "Graphic T-Shirt",
+                "type": "Chest",
+                "armor": 0,
+                "weight": 0.5,
+                "value": 5,
+                "description": "A stylish and comfortable cotton t-shirt featuring a vibrant graphic design. It showcases your personal interests or sense of humor, making it a conversation starter. Perfect for expressing your individuality and adding a pop of color to your outfit."
+            },
+            "varsity jacket": {
+                "name": "Varsity Jacket",
+                "type": "Chest",
+                "armor": 1,
+                "weight": 2.5,
+                "value": 15,
+                "description": "A retro-inspired varsity jacket that brings back memories of high school and college days. Made with a combination of wool and leather accents, it gives off a sporty and nostalgic vibe. The team patches or logos on the jacket make you feel part of a special group, evoking a sense of camaraderie."
+            },
+            "button-up shirt": {
+                "name": "Button-Up Shirt",
+                "type": "Chest",
+                "armor": 0,
+                "weight": 1,
+                "value": 12,
+                "description": "A classic button-up shirt that strikes the perfect balance between smart and casual. Made from breathable fabric, it offers a polished and put-together look. Suitable for various occasions, whether it's a casual day at the office or a night out with friends."
+            },
+            "bomber jacket": {
+                "name": "Bomber Jacket",
+                "type": "Chest",
+                "armor": 1,
+                "weight": 2,
+                "value": 20,
+                "description": "A trendy bomber jacket that adds a touch of urban style to your outfit. Made from lightweight materials, it provides a comfortable fit while offering mild protection against the elements. The ribbed cuffs and collar give it a distinctive look that's both fashionable and practical."
+            },
+            "plaid flannel shirt": {
+                "name": "Plaid Flannel Shirt",
+                "type": "Chest",
+                "armor": 0,
+                "weight": 1.5,
+                "value": 15,
+                "description": "A cozy and casual flannel shirt featuring a classic plaid pattern. Made with soft, brushed cotton fabric, it's perfect for cooler days and adds a rustic charm to your ensemble. Whether you're spending a weekend in the countryside or running errands in the city, this shirt offers both comfort and style."
+            },
+            "hooded cardigan": {
+                "name": "Hooded Cardigan",
+                "type": "Chest",
+                "armor": 0,
+                "weight": 1.2,
+                "value": 18,
+                "description": "A versatile hooded cardigan that combines the comfort of a sweater with the practicality of a hood. Made from a blend of warm and soft materials, it's perfect for layering during transitional seasons. Whether you're lounging at home or enjoying a stroll in the park, this cardigan provides a cozy and relaxed look."
+            }
+        },
+        "legs": {
+            "leather pants": {
+                "name": "Leather Pants",
+                "type": "legs",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "Pants made of leather. They're not very protective, but they're better than nothing."
+            },
+            "denim jeans": {
+                "name": "Denim Jeans",
+                "type": "legs",
+                "armor": 2,
+                "weight": 2,
+                "value": 3,
+                "description": "A classic pair of jeans made from durable denim fabric. Stylish and versatile, offering moderate protection and freedom of movement for urban adventures."
+            },
+            "tactical pants": {
+                "name": "Tactical Pants",
+                "type": "legs",
+                "armor": 3,
+                "weight": 3,
+                "value": 5,
+                "description": "Sturdy and functional pants designed for tactical missions. They feature reinforced knees, multiple pockets, and adjustable straps for carrying equipment. Ideal for those who value both style and practicality."
+            },
+            "cyber leggings": {
+                "name": "Cyber Leggings",
+                "type": "legs",
+                "armor": 2,
+                "weight": 2,
+                "value": 4,
+                "description": "Futuristic leggings made of advanced synthetic materials. They offer enhanced mobility and protection with a sleek, cybernetic design. Perfect for tech enthusiasts and urban explorers."
+            },
+            "steampunk trousers": {
+                "name": "Steampunk Trousers",
+                "type": "legs",
+                "armor": 2,
+                "weight": 2,
+                "value": 6,
+                "description": "Elaborate trousers inspired by steampunk fashion. They feature intricate gears, leather accents, and adjustable buckles. Not only do they provide moderate protection, but they also make a bold fashion statement."
+            },
+            "combat leggings": {
+                "name": "Combat Leggings",
+                "type": "legs",
+                "armor": 3,
+                "weight": 3,
+                "value": 5,
+                "description": "Specially designed leggings for combat situations. Made from a combination of flexible fabric and reinforced plates, these leggings provide excellent mobility and reliable protection during intense battles."
+            },
+            "magic robes": {
+                "name": "Magic Robes",
+                "type": "legs",
+                "armor": 1,
+                "weight": 2,
+                "value": 8,
+                "description": "Flowing robes imbued with magical properties. While not heavily protective, they enhance the wearer's magical abilities and grant resistance against certain elemental forces. A favored choice among spellcasters and mystics."
+            }
+        },
+        "feet": {
+            "leather boots": {
+                "name": "Leather Boots",
+                "type": "feet",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "Sturdy boots made of genuine leather. They provide basic protection for your paws while offering durability and a comfortable fit."
+            },
+            "canvas sneakers": {
+                "name": "Canvas Sneakers",
+                "type": "feet",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "Lightweight sneakers with a canvas upper. They're perfect for casual outings, allowing your paws to breathe with their breathable texture."
+            },
+            "hiking boots": {
+                "name": "Hiking Boots",
+                "type": "feet",
+                "armor": 2,
+                "weight": 2,
+                "value": 3,
+                "description": "Sturdy boots with excellent grip and ankle support, perfect for hiking adventures. Their rugged soles and water-resistant texture keep your paws protected and dry."
+            },
+            "running shoes": {
+                "name": "Running Shoes",
+                "type": "feet",
+                "armor": 1,
+                "weight": 1,
+                "value": 2,
+                "description": "Sleek and lightweight shoes designed for running and agility. Their flexible construction and breathable fabric help prevent your paws from getting sweaty during intense activities."
+            },
+            "steel-toed boots": {
+                "name": "Steel-Toed Boots",
+                "type": "feet",
+                "armor": 3,
+                "weight": 3,
+                "value": 5,
+                "description": "Heavy-duty boots with reinforced steel toes for maximum protection. These boots are ideal for hazardous environments and provide exceptional durability and impact resistance for your paws."
+            },
+            "slip-on sandals": {
+                "name": "Slip-On Sandals",
+                "type": "feet",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "Comfortable sandals with an open-toe design. Easy to slip on and off, they allow your paws to breathe and stay cool on warm days."
+            }
+        },
+        "hands": {
+            "leather gloves": {
+                "name": "Leather Gloves",
+                "type": "hands",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "Sturdy gloves made of genuine leather. They provide basic protection for your paws while allowing flexibility and a comfortable grip."
+            },
+            "knitted fingerless gloves": {
+                "name": "Knitted Fingerless Gloves",
+                "type": "hands",
+                "armor": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "Cozy fingerless gloves knitted with soft yarn. These gloves keep your paws warm while allowing dexterity for delicate tasks."
+            },
+            "tactical gloves": {
+                "name": "Tactical Gloves",
+                "type": "hands",
+                "armor": 2,
+                "weight": 2,
+                "value": 3,
+                "description": "Durable gloves designed for tactical operations. They offer extra protection for your paws with reinforced materials and a textured grip for optimal control."
+            },
+            "climbing gloves": {
+                "name": "Climbing Gloves",
+                "type": "hands",
+                "armor": 2,
+                "weight": 1,
+                "value": 4,
+                "description": "Specialized gloves for climbing adventures. Their textured palms and flexible construction provide a secure grip and protect your paws from rough surfaces."
+            },
+            "magic-infused gauntlets": {
+                "name": "Magic-Infused Gauntlets",
+                "type": "hands",
+                "armor": 3,
+                "weight": 3,
+                "value": 6,
+                "description": "Gauntlets imbued with magical properties. They enhance your paw's natural dexterity and grant a boost to your magical abilities. A perfect choice for spellcasters seeking both style and functionality."
+            },
+            "archery gloves": {
+                "name": "Archery Gloves",
+                "type": "hands",
+                "armor": 1,
+                "weight": 1,
+                "value": 2,
+                "description": "Gloves specifically designed for archers. They offer a smooth texture and a secure fit to ensure precision and comfort when drawing a bowstring, keeping your paws nimble and sweat-free."
+            }
+        }
+    },
+    "weapons": {
+        "one handed": {
+            "dagger": {
+                "name": "Dagger",
+                "type": "one handed",
+                "damage": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A small and lightweight weapon with a sharp blade. Perfect for quick and stealthy attacks, allowing your character to strike with precision and agility."
+            },
+            "shortsword": {
+                "name": "Shortsword",
+                "type": "one handed",
+                "damage": 2,
+                "weight": 2,
+                "value": 2,
+                "description": "A versatile one-handed sword with a balanced design. It offers a good mix of speed and power, making it suitable for various combat situations."
+            },
+            "hand axe": {
+                "name": "Hand Axe",
+                "type": "one handed",
+                "damage": 2,
+                "weight": 2,
+                "value": 2,
+                "description": "A compact axe designed for one-handed use. It's ideal for both chopping wood and delivering swift strikes in close combat."
+            },
+            "rapier": {
+                "name": "Rapier",
+                "type": "one handed",
+                "damage": 2,
+                "weight": 2,
+                "value": 3,
+                "description": "A slender and elegant sword with a sharp point. The rapier is known for its agility and precision, making it a favorite among fencers and duelists."
+            }
+        },
+        "two handed": {
+            "greatsword": {
+                "name": "Greatsword",
+                "type": "two handed",
+                "damage": 3,
+                "weight": 4,
+                "value": 4,
+                "description": "A massive and imposing sword that requires two hands to wield. Its size and weight provide immense power, capable of delivering devastating strikes to opponents."
+            },
+            "battleaxe": {
+                "name": "Battleaxe",
+                "type": "two handed",
+                "damage": 3,
+                "weight": 4,
+                "value": 3,
+                "description": "A heavy and formidable axe designed for both cutting and smashing. It requires two hands to wield effectively, making it a fearsome weapon on the battlefield."
+            },
+            "warhammer": {
+                "name": "Warhammer",
+                "type": "two handed",
+                "damage": 3,
+                "weight": 4,
+                "value": 4,
+                "description": "A powerful blunt weapon designed to crush and pulverize. The warhammer's weight and blunt force make it effective against armored foes and heavily fortified structures."
+            }
+        },
+        "ranged": {
+            "shortbow": {
+                "name": "Shortbow",
+                "type": "ranged",
+                "damage": 2,
+                "weight": 2,
+                "value": 2,
+                "description": "A compact and versatile bow designed for quick and precise ranged attacks. It allows your character to attack from a distance while maintaining mobility."
+            },
+            "crossbow": {
+                "name": "Crossbow",
+                "type": "ranged",
+                "damage": 3,
+                "weight": 3,
+                "value": 3,
+                "description": "A ranged weapon that uses a mechanical mechanism to launch bolts with increased force. The crossbow delivers powerful and accurate shots, making it a deadly choice for ranged combat."
+            },
+            "throwing knives": {
+                "name": "Throwing Knives",
+                "type": "ranged",
+                "damage": 1,
+                "weight": 1,
+                "value": 1,
+                "description": "A set of lightweight knives designed for throwing. They are balanced and deadly in the hands of a skilled character, allowing for precise and stealthy ranged attacks."
+            }
+        }
+    },
+    "items": {
+        "potions": {
+            "weight gain potion": {
+                "name": "Weight Gain Potion",
+                "type": "potion",
+                "weight": 1,
+                "value": 1,
+                "description": "A potion that makes you gain weight. [red]WARNING: this potion is very potent and might influence how people react at your new weight[/red]",
+                "effects": {
+                    "ADDweight": 50
+                }
+            },
+            "lust potion": {
+                "name": "Lust Potion",
+                "type": "potion",
+                "weight": 1,
+                "value": 1,
+                "description": "A potion that makes you horny",
+                "effects": {
+                    "ADDlust": 25
+                }
+            },
+            "memory enhancement potion": {
+                "name": "Memory Enhancement Potion",
+                "type": "potion",
+                "weight": 1,
+                "value": 50,
+                "description": "This sparkling concoction is favored by scholars and sages. Once consumed, it enhances the drinker's memory, making recall quicker and more accurate. [red]WARNING: Overuse may lead to incessant recollection of even the most trivial details[/red]",
+                "effects": {
+                    "ADDmemory": 30
+                }
+            },
+            "strength potion": {
+                "name": "Strength Potion",
+                "type": "potion",
+                "weight": 2,
+                "value": 75,
+                "description": "A potent brew with a fiery aftertaste, this potion bestows upon the drinker an impressive increase in physical strength. [red]WARNING: Aftereffects may include uncontrolled outbursts of power[/red]",
+                "effects": {
+                    "ADDstrength": 40
+                }
+            },
+            "charm potion": {
+                "name": "Charm Potion",
+                "type": "potion",
+                "weight": 1,
+                "value": 80,
+                "description": "A sweet and fragrant elixir that imbues the drinker with an irresistible charisma. [red]WARNING: Prolonged use can lead to unwanted attention and attraction[/red]",
+                "effects": {
+                    "ADDcharm": 35
+                }
+            },
+            "night vision potion": {
+                "name": "Night Vision Potion",
+                "type": "potion",
+                "weight": 1,
+                "value": 60,
+                "description": "A potion that transforms the user's sight to pierce the darkness, useful for nocturnal activities. [red]WARNING: May cause temporary light sensitivity upon returning to bright areas[/red]",
+                "effects": {
+                    "ADDnightvision": 45
+                }
+            },
+            "speed potion": {
+                "name": "Speed Potion",
+                "type": "potion",
+                "weight": 1,
+                "value": 70,
+                "description": "An electrifying brew that enhances the drinker's speed to supernatural levels. [red]WARNING: Disorientation and dizziness may occur from rapid movement[/red]",
+                "effects": {
+                    "ADDspeed": 50
+                }
+            }
+        },
+        "food": {
+            "apple": {
+                "name": "Apple",
+                "type": "food",
+                "weight": 1,
+                "value": 1,
+                "description": "A red apple. It's not very filling, but it's better than nothing.",
+                "effects": {
+                    "hunger": -5,
+                    "ADDweight": 3
+                }
+            },
+            "bread": {
+                "name": "Bread",
+                "type": "food",
+                "weight": 1,
+                "value": 1,
+                "description": "A loaf of bread. It's not very filling, but it's better than nothing.",
+                "effects": {
+                    "hunger": -10,
+                    "ADDweight": 5
+                }
+            },
+            "burger": {
+                "name": "Burger",
+                "type": "food",
+                "weight": 1,
+                "value": 1,
+                "description": "A burger. It's not very filling, but it's better than nothing.",
+                "effects": {
+                    "hunger": -10,
+                    "ADDweight": 10
+                }
+            },
+            "cheese": {
+                "name": "Cheese",
+                "type": "food",
+                "weight": 1,
+                "value": 3,
+                "description": "A wedge of robust, creamy cheese. Satisfying and packed with nutrients, it's the ideal snack for a hearty appetite.",
+                "effects": {
+                    "hunger": -15,
+                    "ADDweight": 7
+                }
+            },
+            "chicken leg": {
+                "name": "Chicken Leg",
+                "type": "food",
+                "weight": 2,
+                "value": 4,
+                "description": "A roasted chicken leg, well-seasoned and cooked to perfection. It's a hearty meal that leaves you wanting more.",
+                "effects": {
+                    "hunger": -20,
+                    "ADDweight": 8
+                }
+            },
+            "steak": {
+                "name": "Steak",
+                "type": "food",
+                "weight": 3,
+                "value": 10,
+                "description": "A generously cut steak, grilled to your preference. Its juicy, tender mouthfeel is a true delight to carnivores.",
+                "effects": {
+                    "hunger": -30,
+                    "ADDweight": 15
+                }
+            },
+            "salad": {
+                "name": "Salad",
+                "type": "food",
+                "weight": 1,
+                "value": 5,
+                "description": "A fresh garden salad, a light and refreshing meal. While it doesn't add much weight, it keeps hunger at bay.",
+                "effects": {
+                    "hunger": -10,
+                    "ADDweight": 2
+                }
+            },
+            "pizza slice": {
+                "name": "Pizza Slice",
+                "type": "food",
+                "weight": 1,
+                "value": 6,
+                "description": "A slice of pizza topped with melty cheese and a variety of toppings. While not the healthiest choice, it's incredibly satisfying.",
+                "effects": {
+                    "hunger": -25,
+                    "ADDweight": 12,
+                    "ADDlust": 5
+                }
+            }
+        },
+        "misc": {
+            "book": {
+                "name": "Book",
+                "type": "misc",
+                "weight": 1,
+                "value": 10,
+                "description": "An old, leather-bound book filled with tales of ancient heroes. Perfect for a quiet night in."
+            },
+            "compass": {
+                "name": "Compass",
+                "type": "misc",
+                "weight": 1,
+                "value": 15,
+                "description": "A small, brass compass. Essential for those who wish to travel uncharted territories."
+            },
+            "candle": {
+                "name": "Candle",
+                "type": "misc",
+                "weight": 1,
+                "value": 5,
+                "description": "A simple, wax candle. Provides light in the darkest of nights."
+            },
+            "map": {
+                "name": "Map",
+                "type": "misc",
+                "weight": 1,
+                "value": 20,
+                "description": "A detailed map of the local area. For the adventurous soul, this is a must-have."
+            },
+            "lockpick": {
+                "name": "Lockpick",
+                "type": "misc",
+                "weight": 1,
+                "value": 25,
+                "description": "A set of lockpicking tools. Handy in a pinch and ideal for those with a knack for unlocking secrets."
+            },
+            "lantern": {
+                "name": "Lantern",
+                "type": "misc",
+                "weight": 2,
+                "value": 30,
+                "description": "A sturdy, oil lantern. It provides a steady light source, perfect for exploring dark caves or nighttime journeys."
+            }
+        }
+    },
+    "spells": {}
+}

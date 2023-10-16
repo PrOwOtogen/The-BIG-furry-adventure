@@ -1,0 +1,518 @@
+{
+	"Belly Sizes": {
+		"<100": {
+			"Description": "Hardly noticeable",
+			"jiggling": "Your belly is very small and tight, barely moving when you walk or move"
+		},
+		"100-149": {
+			"Description": "Slight jiggling",
+			"jiggling": "Your belly is small and slightly round, jiggling just a little when you walk or move."
+		},
+		"150-199": {
+			"Description": "Gentle sway",
+			"jiggling": "Your belly is medium-sized and round, swaying gently when you walk or move."
+		},
+		"200-249": {
+			"Description": "Noticeable jiggling",
+			"jiggling": "Your belly is large and round, jiggling noticeably when you walk or move."
+		},
+		"250-299": {
+			"Description": "Swaying",
+			"jiggling": "Your belly is huge and round, swaying when you walk or move."
+		},
+		"300-349": {
+			"Description": "Rolling",
+			"jiggling": "Your belly is huge and round, rolling and swaying when you walk or move."
+		},
+		"350-399": {
+			"Description": "Heavily jiggling",
+			"jiggling": "Your belly is enormous and round, jiggling heavily when you walk or move, making it difficult to balance."
+		},
+		"400-449": {
+			"Description": "Wobbling",
+			"jiggling": "Your belly is massive and round, wobbling heavily when you walk or move, making it a struggle to keep your balance."
+		},
+		"450-499": {
+			"Description": "Uncontrollable jiggling",
+			"jiggling": "Your belly is so huge and round that it jiggles uncontrollably when you walk or move, making it nearly impossible to maintain your balance."
+		},
+		"500-599": {
+			"Description": "Unmanageable wobbling",
+			"jiggling": "Your belly is incredibly huge and round, wobbling so heavily that it is nearly impossible to move without falling."
+		},
+		"600-699": {
+			"Description": "Struggling to move",
+			"jiggling": "Your belly is beyond huge and round, making it difficult to move at all. You struggle to balance and find yourself out of breath just from walking."
+		},
+		"700-799": {
+			"Description": "Barely able to move",
+			"jiggling": "Your belly is so massive and round that it is a struggle to move at all. You can barely balance and have to rest frequently just from walking."
+		},
+		"800-899": {
+			"Description": "Immobile",
+			"jiggling": "Your belly is so huge and round that you can barely move, requiring assistance to get around."
+		},
+		"900-999": {
+			"Description": "Completely immobile",
+			"jiggling": "Your belly is so massive that you are unable to move, relying on others to care for you."
+		},
+		"1000-1199": {
+			"Description": "Helpless",
+			"jiggling": "Your belly is so huge that you are completely helpless, unable to move or care for yourself."
+		},
+		">1200": {
+			"Description": "Limitless",
+			"jiggling": "Your belly has reached truly epic proportions, growing beyond any imaginable limits. You are unable to move or care for yourself, relying entirely on others for your every need."
+		}
+	},
+	"Legs Size": {
+		"<100": {
+			"sDescription": "Skinny",
+			"lDescription": "Your legs are thin and toned, easily fitting into skinny jeans and able to move quickly and easily."
+		},
+		"100-200": {
+			"sDescription": "Slim",
+			"lDescription": "Your legs are slender, with a bit of muscle definition showing through. They're flexible and allow you to move with ease."
+		},
+		"200-300": {
+			"sDescription": "Average",
+			"lDescription": "Your legs have a moderate amount of meat on them, they're not too thin or too thick. You're able to move around with ease, but your legs may jiggle a bit when you walk."
+		},
+		"300-400": {
+			"sDescription": "Plump",
+			"lDescription": "Your legs are plump and juicy, filled with soft layers of fat. They're strong enough to support your weight, but your legs jiggle with every step."
+		},
+		"400-500": {
+			"sDescription": "Thick",
+			"lDescription": "Your legs are thick and sturdy, filled with juicy layers of fat. They're strong enough to support your weight and allow you to move around without much difficulty."
+		},
+		"500-600": {
+			"sDescription": "Chunky",
+			"lDescription": "Your legs are incredibly chunky, with large rolls of fat that jiggle with every step. They are strong and supportive, but you may experience a bit of difficulty with mobility."
+		},
+		"600-700": {
+			"sDescription": "Heavyset",
+			"lDescription": "Your legs are heavily set, with massive rolls of fat that jiggle with every step. They are strong and supportive, but you may experience a bit of difficulty with mobility."
+		},
+		"700-800": {
+			"sDescription": "Massively Overweight",
+			"lDescription": "Your legs are so large that they struggle to support your massive weight. You have difficulty moving and standing, but your legs are still thick and strong."
+		},
+		"800-900": {
+			"sDescription": "Extremely Obese",
+			"lDescription": "Your legs are massive, with rolls of fat that hang down and make it difficult to move. Your legs are incredibly strong, but they can barely carry your weight."
+		},
+		"900-1000": {
+			"sDescription": "Gigantic",
+			"lDescription": "Your legs are gigantic, with massive rolls of fat that completely engulf your shoes. You have extreme difficulty moving, but your legs are incredibly strong."
+		},
+		"1000-1100": {
+			"sDescription": "Monstrous",
+			"lDescription": "Your legs are monstrous, with layers upon layers of fat that completely obscure your feet. You have extreme difficulty moving, but your legs are incredibly strong and supportive."
+		},
+		"1100-1200": {
+			"sDescription": "Colossal",
+			"lDescription": "Your legs are colossal, with massive rolls of fat that hang down and drag behind you as you move. You have extreme difficulty moving, but your legs are incredibly strong and supportive."
+		}
+	},
+	"Arm Size": {
+		"<100": {
+			"sDescription": "Thin",
+			"lDescription": "Your arms are slender and wiry, with veins clearly visible under the skin."
+		},
+		"200": {
+			"sDescription": "Slender",
+			"lDescription": "Your arms have filled out slightly, but still retain a lean and toned appearance."
+		},
+		"300": {
+			"sDescription": "Average",
+			"lDescription": "Your arms are of average size, fitting comfortably within the typical range."
+		},
+		"400": {
+			"sDescription": "Plump",
+			"lDescription": "Your arms have become soft and plump, with a slight jiggle when you move."
+		},
+		"500": {
+			"sDescription": "Chubby",
+			"lDescription": "Your arms are noticeably chubby, with a distinct layer of fat covering the muscle."
+		},
+		"600": {
+			"sDescription": "Heavy",
+			"lDescription": "Your arms are heavy and dense, with rolls of fat hanging from the upper arms."
+		},
+		"700": {
+			"sDescription": "Overflowing",
+			"lDescription": "Your arms are overflowing with excess fat, spilling out from tight sleeves."
+		},
+		"800": {
+			"sDescription": "Bulbous",
+			"lDescription": "Your arms are bulbous and round, resembling massive cushions of flab."
+		},
+		"900": {
+			"sDescription": "Gigantic",
+			"lDescription": "Your arms are gigantic, rivaling the size of some small tree trunks."
+		},
+		"1000": {
+			"sDescription": "Monumental",
+			"lDescription": "Your arms are monumental, awe-inspiring masses of flesh that dwarf all others."
+		},
+		"1100": {
+			"sDescription": "Titanic",
+			"lDescription": " Your arms are titanic, monumental structures of flesh that defy all expectations."
+		},
+		"1200": {
+			"sDescription": "Beyond Measure",
+			"lDescription": "Your arms are beyond measure, so massive that they strain the limits of your body."
+		}
+	},
+	"Clean": {
+		"0": {
+			"sDescription": "Filthy",
+			"lDescription": "You are covered head to toe in grime and dirt. Your fur is matted and oily, your skin is covered in sores and scabs, and you emit a foul odor that assaults the senses.",
+			"Scent": "The smell of your body is overpowering, a noxious mixture of sweat, urine, and feces that fills the air and clings to everything it touches."
+		},
+		"20": {
+			"sDescription": "Dirty",
+			"lDescription": "You are in dire need of a bath. Your fur is greasy and matted, your skin is covered in a thin film of sweat, and you emit a noticeable odor.",
+			"Scent": "Your body odor is strong, a pungent combination of sweat, body oils, and bacteria that permeates the air and makes others recoil."
+		},
+		"40": {
+			"sDescription": "Unclean",
+			"lDescription": "You are not quite as dirty as you were before, but you are still in need of some grooming. Your fur is unkempt and tangled, your skin is slick with sweat, and you emit a faint odor.",
+			"Scent": "Your scent is noticeable, a blend of body odor and mustiness that clings to your fur and skin."
+		},
+		"60": {
+			"sDescription": " Slightly Dirty",
+			"lDescription": "You are looking somewhat presentable, but still could use some grooming. Your fur is starting to look a bit wild, your skin is still slightly damp, and you emit a barely noticeable odor.",
+			"Scent": "Your scent is not as strong as it was before, but it is still there, a faint trace of body odor that clings to your fur and skin."
+		},
+		"80": {
+			"sDescription": "Presentable",
+			"lDescription": "You are starting to look quite presentable, but there are still some signs of dirt and grime. Your fur is relatively neat and tidy, your skin is mostly dry, and you emit only a faint odor.",
+			"Scent": "Your scent is not overpowering, but it is still there, a hint of body odor that is only noticeable up close."
+		},
+		"100": {
+			"sDescription": "Clean",
+			"lDescription": "You are spotless and immaculate. Your fur is smooth and shiny, your skin is clean and dry, and you emit no noticeable odor.",
+			"Scent": "Your scent is nonexistent, leaving no trace of body odor or any other unpleasant smells."
+		}
+	},
+	"idle": {
+		"<100": {
+			"1": "You engage in gentle deep breathing exercises, focusing on relaxation and centering yourself.",
+			"2": "You take a moment to adjust your sitting position and relieve any discomfort caused by your weight.",
+			"3": "You participate in a seated stretching routine, focusing on improving flexibility and joint mobility.",
+			"4": "You engage in guided meditation or visualization, finding solace and peace within your thoughts.",
+			"5": "You perform gentle movements while seated, focusing on promoting blood circulation and muscle relaxation.",
+			"6": "You practice mindful eating, savoring each bite and cultivating a healthy relationship with food.",
+			"7": "You engage in chair yoga, adapting poses to accommodate your body weight and range of motion.",
+			"8": "You do a series of seated resistance band exercises, gradually building strength and muscle tone.",
+			"9": "You participate in seated mindfulness exercises, bringing awareness to the present moment and finding gratitude.",
+			"10": "You engage in self-care activities such as listening to calming music or reading a book that brings you joy."
+		},
+		"100-149": {
+			"1": "You take a moment to rest and adjust your position, appreciating the effort it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on grounding yourself and finding inner peace.",
+			"3": "You participate in gentle movements while seated, focusing on maintaining mobility and preventing stiffness.",
+			"4": "You engage in seated stretches, gently lengthening your muscles and promoting circulation.",
+			"5": "You practice mindfulness, bringing your attention to the sensations in your body and the present moment.",
+			"6": "You perform gentle movements with the assistance of a physical therapist or support aid.",
+			"7": "You engage in mental exercises such as visualization or affirmations to uplift your spirits.",
+			"8": "You listen to soothing sounds or guided relaxation audios to help calm your mind and body.",
+			"9": "You practice gratitude, reflecting on the positive aspects of your life and finding contentment in the present.",
+			"10": "You engage in self-reflection or journaling, exploring your thoughts and emotions with compassion."
+		},
+		"150-199": {
+			"1": "You take a moment to rest and find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and cultivating a sense of calm.",
+			"3": "You participate in gentle chair exercises, focusing on maintaining mobility and promoting blood circulation.",
+			"4": "You engage in seated stretches, gently working on flexibility and easing any muscle tension.",
+			"5": "You practice mindfulness and meditation, bringing awareness to the present moment and finding inner peace.",
+			"6": "You listen to uplifting music or audio books, enjoying the melodies or stories that inspire and uplift you.",
+			"7": "You engage in creative activities such as drawing, painting, or writing, expressing your thoughts and emotions.",
+			"8": "You practice self-care rituals such as applying a soothing face mask or enjoying a warm foot bath.",
+			"9": "You engage in virtual experiences or adventures through technology, exploring new worlds or activities from the comfort of your seat.",
+			"10": "You spend time connecting with loved ones through phone calls, video chats, or letters, fostering meaningful relationships."
+		},
+		"200-249": {
+			"1": "You take a moment to rest and find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and finding peace within yourself.",
+			"3": "You practice gentle movements and stretches, focusing on maintaining mobility and preventing muscle stiffness.",
+			"4": "You listen to calming nature sounds or ambient music, allowing the soothing melodies to transport your mind.",
+			"5": "You engage in guided visualization or meditation, exploring imaginary landscapes or peaceful scenarios.",
+			"6": "You engage in gentle chair-based exercises, focusing on maintaining joint mobility and muscle tone.",
+			"7": "You spend time engaging in hobbies or crafts that bring you joy, such as knitting, puzzles, or model-building.",
+			"8": "You practice gratitude journaling, reflecting on the positive aspects of your life and expressing appreciation.",
+			"9": "You engage in virtual tours or educational programs, expanding your knowledge and exploring new interests from the comfort of your seat.",
+			"10": "You spend time with pets or therapy animals, enjoying their companionship and the comfort they bring."
+		},
+		"250-299": {
+			"1": "You take a moment to find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and finding peace within yourself.",
+			"3": "You practice gentle movements and stretches, focusing on maintaining mobility and preventing muscle stiffness.",
+			"4": "You listen to calming instrumental music or soothing sounds, allowing them to bring tranquility to your surroundings.",
+			"5": "You engage in seated meditation or mindfulness, cultivating a sense of presence and calmness.",
+			"6": "You engage in gentle chair yoga or adaptive exercises, adapting movements to accommodate your abilities.",
+			"7": "You spend time engaging in creative activities such as drawing, writing, or crafting, expressing your thoughts and emotions.",
+			"8": "You engage in virtual experiences or entertainment, such as immersive storytelling or virtual reality adventures.",
+			"9": "You enjoy the company of loved ones, engaging in conversations or activities that foster connection and warmth.",
+			"10": "You spend time connecting with nature through indoor plants, observing their beauty and tending to their needs."
+		},
+		"300-349": {
+			"1": "You take a moment to find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You practice deep breathing and relaxation techniques, focusing on finding inner calm and serenity.",
+			"3": "You engage in gentle movements and stretches, focusing on promoting blood circulation and preventing muscle stiffness.",
+			"4": "You listen to calming music or guided meditations, allowing them to create a peaceful ambiance around you.",
+			"5": "You engage in seated activities such as puzzles, crosswords, or brain games, stimulating your mind and promoting cognitive wellness.",
+			"6": "You spend time engaging in creative pursuits, such as writing, painting, or composing, allowing your imagination to soar.",
+			"7": "You practice self-reflection and journaling, exploring your thoughts, emotions, and personal growth journey.",
+			"8": "You engage in virtual experiences or hobbies that bring joy and fulfillment, such as online communities, gaming, or virtual travel.",
+			"9": "You find solace in spiritual practices, engaging in prayer, meditation, or connecting with your beliefs and values.",
+			"10": "You nurture your emotional well-being through self-care rituals, such as aromatherapy, gentle touch, or engaging in soothing sensory experiences."
+		},
+		"350-399": {
+			"1": "You take a moment to adjust your position, finding a comfortable way to support your weight.",
+			"2": "You engage in gentle stretches, focusing on maintaining mobility and easing any stiffness in your joints.",
+			"3": "You perform simple seated exercises, gradually building strength and muscle tone.",
+			"4": "You practice mindfulness, focusing on the sensations in your body and your present surroundings.",
+			"5": "You engage in deep breathing exercises, reducing stress and promoting relaxation.",
+			"6": "You listen to soothing music or guided meditations, finding tranquility within the calming sounds.",
+			"7": "You participate in hobbies that bring you joy, such as reading, drawing, or solving puzzles.",
+			"8": "You spend time connecting with loved ones through phone or video calls, fostering important relationships.",
+			"9": "You engage in guided visualization exercises, imagining serene landscapes or peaceful scenes.",
+			"10": "You practice mindful eating, savoring the flavors and textures of your food and fostering a healthy relationship with nutrition."
+		},
+		"400-449": {
+			"1": "You take a moment to find a comfortable sitting position, appreciating the effort it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and easing any physical discomfort.",
+			"3": "You perform gentle stretches while seated, working to improve flexibility and joint mobility.",
+			"4": "You listen to calming sounds or music, finding peace and tranquility within the melodies.",
+			"5": "You engage in mindfulness exercises, bringing your focus to the present moment and fostering inner calm.",
+			"6": "You engage in chair yoga, adapting poses to your body's abilities and range of motion.",
+			"7": "You spend time with your thoughts, practicing self-reflection or journaling to explore your emotions.",
+			"8": "You participate in seated resistance band exercises, gradually improving your strength and muscle tone.",
+			"9": "You engage in sensory experiences, such as aromatherapy or soft tactile objects, to promote relaxation and mental wellness.",
+			"10": "You connect with loved ones through video chats or phone calls, enjoying their company and shared conversations."
+		},
+		"450-499": {
+			"1": "You take a moment to adjust your sitting position, finding comfort in supporting your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and calming your mind.",
+			"3": "You participate in a seated stretching routine, focusing on improving flexibility and joint mobility.",
+			"4": "You engage in guided meditation, allowing your mind to find peace and tranquility within your thoughts.",
+			"5": "You perform gentle movements while seated, aiming to promote blood circulation and muscle relaxation.",
+			"6": "You practice mindful eating, savoring each bite and establishing a healthy relationship with food.",
+			"7": "You engage in chair yoga, adapting the poses to fit your body's range of motion and abilities.",
+			"8": "You do a series of seated resistance band exercises, aiming to build strength and muscle tone over time.",
+			"9": "You participate in seated mindfulness exercises, focusing your awareness on the present moment and cultivating a sense of gratitude.",
+			"10": "You engage in self-care activities, such as listening to calming music or reading a book that brings you joy."
+		},
+		"500-599": {
+			"1": "You take time to find comfort and ease in your position, appreciating the strength required to support your weight.",
+			"2": "You engage in deep, focused breathing exercises, working to instill calm and groundedness in your body.",
+			"3": "You participate in gentle, seated exercises, ensuring you maintain mobility and avoid stiffness.",
+			"4": "You listen to soothing sounds or ambient music, allowing the calming notes to create a tranquil atmosphere.",
+			"5": "You engage in mental exercises, such as visualization or affirmations, to uplift your spirits and encourage positivity.",
+			"6": "You practice mindfulness, giving attention to your body's sensations and the present moment, fostering a sense of peace.",
+			"7": "You engage in seated stretches, working to gently lengthen your muscles and encourage circulation.",
+			"8": "You perform gentle movements with the assistance of a physical therapist or support aid, helping to maintain muscle tone and joint flexibility.",
+			"9": "You listen to calming guided relaxation audios or podcasts, allowing the soothing narratives to help you find inner peace.",
+			"10": "You spend time reflecting on the positive aspects of your life, practicing gratitude, and finding contentment in the present."
+		},
+		"600-699": {
+			"1": "You engage in gentle deep breathing exercises, focusing on relaxation and centering yourself.",
+			"2": "You take a moment to adjust your sitting position and relieve any discomfort caused by your weight.",
+			"3": "You participate in a seated stretching routine, focusing on improving flexibility and joint mobility.",
+			"4": "You engage in guided meditation or visualization, finding solace and peace within your thoughts.",
+			"5": "You perform gentle movements while seated, focusing on promoting blood circulation and muscle relaxation.",
+			"6": "You practice mindful eating, savoring each bite and cultivating a healthy relationship with food.",
+			"7": "You engage in chair yoga, adapting poses to accommodate your body weight and range of motion.",
+			"8": "You do a series of seated resistance band exercises, gradually building strength and muscle tone.",
+			"9": "You participate in seated mindfulness exercises, bringing awareness to the present moment and finding gratitude.",
+			"10": "You engage in self-care activities such as listening to calming music or reading a book that brings you joy."
+		},
+		"700-799": {
+			"1": "You take a moment to rest and adjust your position, appreciating the effort it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on grounding yourself and finding inner peace.",
+			"3": "You participate in gentle movements while seated, focusing on maintaining mobility and preventing stiffness.",
+			"4": "You engage in seated stretches, gently lengthening your muscles and promoting circulation.",
+			"5": "You practice mindfulness, bringing your attention to the sensations in your body and the present moment.",
+			"6": "You perform gentle movements with the assistance of a physical therapist or support aid.",
+			"7": "You engage in mental exercises such as visualization or affirmations to uplift your spirits.",
+			"8": "You listen to soothing sounds or guided relaxation audios to help calm your mind and body.",
+			"9": "You practice gratitude, reflecting on the positive aspects of your life and finding contentment in the present.",
+			"10": "You engage in self-reflection or journaling, exploring your thoughts and emotions with compassion."
+		},
+		"800-899": {
+			"1": "You take a moment to rest and find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and cultivating a sense of calm.",
+			"3": "You participate in gentle chair exercises, focusing on maintaining mobility and promoting blood circulation.",
+			"4": "You engage in seated stretches, gently working on flexibility and easing any muscle tension.",
+			"5": "You practice mindfulness and meditation, bringing awareness to the present moment and finding inner peace.",
+			"6": "You listen to uplifting music or audio books, enjoying the melodies or stories that inspire and uplift you.",
+			"7": "You engage in creative activities such as drawing, painting, or writing, expressing your thoughts and emotions.",
+			"8": "You practice self-care rituals such as applying a soothing face mask or enjoying a warm foot bath.",
+			"9": "You engage in virtual experiences or adventures through technology, exploring new worlds or activities from the comfort of your seat.",
+			"10": "You spend time connecting with loved ones through phone calls, video chats, or letters, fostering meaningful relationships."
+		},
+		"900-999": {
+			"1": "You take a moment to rest and find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and finding peace within yourself.",
+			"3": "You practice gentle movements and stretches, focusing on maintaining mobility and preventing muscle stiffness.",
+			"4": "You listen to calming nature sounds or ambient music, allowing the soothing melodies to transport your mind.",
+			"5": "You engage in guided visualization or meditation, exploring imaginary landscapes or peaceful scenarios.",
+			"6": "You engage in gentle chair-based exercises, focusing on maintaining joint mobility and muscle tone.",
+			"7": "You spend time engaging in hobbies or crafts that bring you joy, such as knitting, puzzles, or model-building.",
+			"8": "You practice gratitude journaling, reflecting on the positive aspects of your life and expressing appreciation.",
+			"9": "You engage in virtual tours or educational programs, expanding your knowledge and exploring new interests from the comfort of your seat.",
+			"10": "You spend time with pets or therapy animals, enjoying their companionship and the comfort they bring."
+		},
+		"1000-1199": {
+			"1": "You take a moment to find a comfortable position, appreciating the strength it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on relaxation and finding peace within yourself.",
+			"3": "You practice gentle movements and stretches, focusing on maintaining mobility and preventing muscle stiffness.",
+			"4": "You listen to calming instrumental music or soothing sounds, allowing them to bring tranquility to your surroundings.",
+			"5": "You engage in seated meditation or mindfulness, cultivating a sense of presence and calmness.",
+			"6": "You engage in gentle chair yoga or adaptive exercises, adapting movements to accommodate your abilities.",
+			"7": "You spend time engaging in creative activities such as drawing, writing, or crafting, expressing your thoughts and emotions.",
+			"8": "You engage in virtual experiences or entertainment, such as immersive storytelling or virtual reality adventures.",
+			"9": "You enjoy the company of loved ones, engaging in conversations or activities that foster connection and warmth.",
+			"10": "You spend time connecting with nature through indoor plants, observing their beauty and tending to their needs."
+		},
+		"1200<": {
+			"1": "You take a moment to rest and find a comfortable position, acknowledging the effort it takes to support your weight.",
+			"2": "You engage in deep breathing exercises, focusing on instilling a sense of calm and peace within yourself.",
+			"3": "You engage in gentle chair exercises or stretching routines, maintaining mobility and preventing stiffness.",
+			"4": "You listen to soothing music or nature sounds, allowing their calming melodies to bring tranquility to your environment.",
+			"5": "You participate in guided visualization exercises or meditation, finding serenity in your thoughts and mind.",
+			"6": "You spend time engaging in creative activities such as painting, writing, or crafting, expressing your thoughts and emotions.",
+			"7": "You enjoy the company of loved ones, engaging in conversations or activities that foster connection and warmth.",
+			"8": "You engage in mindfulness activities, bringing your focus to the present moment and cultivating a sense of peace.",
+			"9": "You engage in virtual experiences or entertainment, exploring new worlds and activities from the comfort of your seat.",
+			"10": "You take time for self-care rituals, such as enjoying a warm drink, applying a soothing lotion, or snuggling in a cozy blanket."
+		}
+	},
+	"lust": {
+		"0-19": {
+			"1": "You cast seductive glances, your eyes inviting others into your alluring world.",
+			"2": "You play with your hair, subtly drawing attention to your sensual nature.",
+			"3": "You sway your hips gently, exuding an enticing aura with each subtle movement.",
+			"4": "You apply a touch of scented oil, reveling in the way it enhances your natural allure.",
+			"5": "You whisper flirtatious words, your voice dripping with charm and temptation.",
+			"6": "You cross and uncross your legs slowly, teasing those who catch a glimpse of your enticing display.",
+			"7": "You trace your finger along your lips, inviting thoughts of desire and longing.",
+			"8": "You engage in a slow and sensuous dance, captivating the attention of those around you.",
+			"9": "You exude an intoxicating scent, leaving others unable to resist your magnetic presence.",
+			"10": "You cast a sultry smile, igniting flames of passion in the hearts of those who meet your gaze."
+		},
+		"20-39": {
+			"1": "You lean in closer, your proximity creating an electrifying tension between you and others.",
+			"2": "You playfully bite your lower lip, evoking desire and curiosity in those who observe.",
+			"3": "You run your fingers along your collarbone, drawing attention to your alluring curves.",
+			"4": "You engage in a subtle yet suggestive body language, leaving others captivated by your every move.",
+			"5": "You engage in a slow and tantalizing dance, teasing with the promise of untamed passion.",
+			"6": "You whisper seductive words, your voice an irresistible invitation to explore forbidden desires.",
+			"7": "You wear a hint of provocative attire, leaving just enough to the imagination to fuel fantasies.",
+			"8": "You engage in an intimate conversation, your words laced with a seductive undertone.",
+			"9": "You give a lingering touch, your fingers leaving a trail of warmth and longing on the skin of others.",
+			"10": "You exude an aura of raw desire, drawing others into your orbit with an irresistible magnetic pull."
+		},
+		"40-59": {
+			"1": "You lock eyes with intensity, your gaze holding promises of passion and pleasure.",
+			"2": "You engage in a sensual dance, moving your body with grace and fluidity, igniting desires in those who watch.",
+			"3": "You speak in a low and husky voice, sending shivers down the spines of those who hear your sultry tones.",
+			"4": "You engage in a provocative display of confidence, embodying the essence of seduction and allure.",
+			"5": "You wear enticing lingerie or attire, accentuating your curves and stoking desires.",
+			"6": "You engage in a slow and passionate kiss, leaving others breathless and yearning for more.",
+			"7": "You caress your own skin, the touch a tantalizing invitation for others to join in.",
+			"8": "You whisper intimate secrets, sharing forbidden desires that ignite flames of passion in those who listen.",
+			"9": "You engage in a playful game of seduction, leaving others captivated by your artistry.",
+			"10": "You exude an intoxicating magnetism, effortlessly drawing others into a web of passion and temptation."
+		},
+		"60-79": {
+			"1": "You engage in an intimate dance, bodies moving in perfect harmony, fueling the fires of desire.",
+			"2": "You exude an air of confidence and dominance, captivating others with your magnetic presence.",
+			"3": "You trace your fingers along the contours of your body, inviting others to explore the depths of their desires.",
+			"4": "You engage in a heated exchange of passionate words, igniting flames of longing and lust in those who listen.",
+			"5": "You wear provocative and alluring attire, leaving no doubt about the depths of your desires.",
+			"6": "You engage in a passionate embrace, bodies entwined in a fiery dance of pleasure and longing.",
+			"7": "You explore the realms of sensual touch, igniting fireworks of pleasure in the bodies of others.",
+			"8": "You engage in an intimate and intense gaze, your eyes conveying a depth of desire that is impossible to resist.",
+			"9": "You whisper intoxicating promises, sharing fantasies that awaken the most primal desires in those who hear.",
+			"10": "You exude an aura of irresistible temptation, your presence a beacon for those consumed by the flames of passion."
+		},
+		"80-100": {
+			"1": "You engage in an uninhibited dance of raw passion, bodies intertwining in a symphony of desire and pleasure.",
+			"2": "You emanate a commanding presence, exuding an irresistible allure that captivates and enslaves those around you.",
+			"3": "You unleash the depths of your desires through unapologetic actions, leaving others breathless and craving more.",
+			"4": "You engage in an intoxicating exchange of heated and primal words, fueling the fires of insatiable lust.",
+			"5": "You wear decadent and provocative attire that leaves no doubt about your intentions and insatiable appetite.",
+			"6": "You indulge in an all-consuming embrace, bodies merging in an explosive fusion of passion and ecstasy.",
+			"7": "You explore the boundaries of pleasure and pain, seducing others into a realm of sublime indulgence.",
+			"8": "You command attention with a dominant gaze, evoking submission and surrender in those who meet your eyes.",
+			"9": "You whisper forbidden desires, unlocking hidden fantasies and awakening the darkest cravings in those who listen.",
+			"10": "You exude an overwhelming aura of irresistible temptation and raw sensuality, leaving no one immune to the flames of your insatiable lust."
+		}
+	},
+	"filthy": {
+		"100-79": {
+			"1": "You engage in explicit and uninhibited acts, pushing the boundaries of pleasure and exploring the depths of desire.",
+			"2": "You indulge in taboo fantasies, embracing the forbidden and surrendering to the allure of the dark and primal.",
+			"3": "You immerse yourself in a world of debauchery and hedonism, unapologetically chasing the most decadent pleasures.",
+			"4": "You explore the realms of extreme kinks and fetishes, finding ecstasy in the unorthodox and unconventional.",
+			"5": "You leave no desire unfulfilled, embracing every opportunity for pleasure and embracing your own filthy desires.",
+			"6": "You unleash your inner wildness, surrendering to lust without inhibition and indulging in the most explicit and intense experiences.",
+			"7": "You participate in orgies and group activities, embracing the collective energy of unbridled indulgence.",
+			"8": "You push the limits of pain and pleasure, seeking euphoria in the realm of dominance and submission.",
+			"9": "You revel in the filthiest of role plays and scenarios, blurring the lines between fantasy and reality.",
+			"10": "You engage in acts of extreme pleasure and decadence, embracing the darkest desires that lie within you."
+		},
+		"78-59": {
+			"1": "You engage in explicit acts with a fervent passion, fueling the flames of desire with every sinful encounter.",
+			"2": "You explore various forms of kink and fetish, surrendering to the intoxicating thrill of the taboo.",
+			"3": "You embrace the world of sensual exploration, savoring the delights of the flesh with an insatiable appetite.",
+			"4": "You indulge in passionate encounters, relinquishing control and succumbing to the temptations of the flesh.",
+			"5": "You delight in the art of seduction, weaving webs of temptation and surrendering to the pleasures of the body.",
+			"6": "You engage in intimate acts of exhibitionism and voyeurism, basking in the thrill of being seen and watching others.",
+			"7": "You explore the boundaries of dominance and submission, finding ecstasy in power dynamics and role play.",
+			"8": "You engage in intense and passionate encounters, surrendering to the raw and primal urges that drive you.",
+			"9": "You experiment with sensory play, indulging in sensations that heighten pleasure and ignite the senses.",
+			"10": "You embrace your sexual desires and fantasies, pursuing pleasure with a fervor that knows no bounds."
+		},
+		"58-39": {
+			"1": "You engage in steamy encounters, igniting passion and desire with every touch and kiss.",
+			"2": "You explore the art of seduction, honing your skills to captivate and enchant those who succumb to your charms.",
+			"3": "You indulge in playful and teasing acts, igniting flames of desire and building anticipation.",
+			"4": "You embrace your sensual nature, allowing your body to be a canvas for pleasure and exploration.",
+			"5": "You engage in passionate and intimate experiences, savoring every moment of connection and shared desire.",
+			"6": "You embrace the joys of erotic literature and media, finding inspiration and igniting your own fantasies.",
+			"7": "You experiment with light bondage and sensory deprivation, adding an element of excitement and anticipation.",
+			"8": "You engage in passionate and explorative role plays, stepping into different personas to enhance the experience.",
+			"9": "You delight in the exploration of erogenous zones, discovering the pleasures that lie in every inch of your body.",
+			"10": "You revel in the art of teasing and denial, drawing out pleasure to its exquisite and explosive climax."
+		},
+		"38-19": {
+			"1": "You engage in passionate and tender encounters, cherishing the intimacy and connection that comes with shared desire.",
+			"2": "You delight in the simple pleasures of touch and caress, finding joy in the subtleties of sensual exploration.",
+			"3": "You embrace the beauty of slow and sensual lovemaking, savoring each moment as if it were a precious gift.",
+			"4": "You indulge in whispered words of desire and adoration, creating a symphony of passion and vulnerability.",
+			"5": "You explore the art of erotic massage, using touch to awaken the senses and ignite the flame of desire.",
+			"6": "You engage in playful and intimate moments, allowing laughter and joy to mingle with passion and desire.",
+			"7": "You experiment with aphrodisiacs and sensual delights, enhancing pleasure and heightening the senses.",
+			"8": "You indulge in the pleasure of shared fantasies and desires, embracing the vulnerability that comes with baring your deepest desires.",
+			"9": "You find pleasure in the simplicity of intimate gestures, understanding that true filth lies in the authenticity of connection.",
+			"10": "You revel in the exploration of each other's bodies, discovering new depths of pleasure and connection with every touch."
+		},
+		"18-0": {
+			"1": "You appreciate the beauty of the human form, finding joy in the subtleties of intimacy and connection.",
+			"2": "You engage in passionate and tender lovemaking, cherishing the vulnerability and trust that comes with shared desire.",
+			"3": "You find pleasure in the simplicity of gentle touch and whispered words of affection, creating moments of pure intimacy.",
+			"4": "You embrace the art of slow and sensual exploration, savoring the connection and pleasure that unfolds in each moment.",
+			"5": "You indulge in the pleasure of deep emotional and physical connection, cherishing the intimacy that unfolds between you and your partner.",
+			"6": "You appreciate the power of genuine communication and understanding, fostering a deep and meaningful connection in your intimate encounters.",
+			"7": "You find pleasure in the exploration of emotional and spiritual intimacy, recognizing that true filth lies in the depths of authentic connection.",
+			"8": "You embrace the beauty of vulnerability and trust, understanding that the most profound acts of filth can occur in the tenderest of moments.",
+			"9": "You find fulfillment in the emotional and sensual nuances of intimate encounters, cherishing the intimacy and connection that comes with shared desire.",
+			"10": "You revel in the exploration of your partner's desires, taking joy in their pleasure and finding satisfaction in creating moments of deep and authentic connection."
+		}
+	}
+}

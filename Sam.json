@@ -1,0 +1,231 @@
+{
+    "player": {
+        "name": "Sam",
+        "health": 200,
+        "weight": 250,
+        "defense": 6,
+        "height": 180,
+        "clean": 80,
+        "filth": 80,
+        "speed": 50,
+        "attack": 7,
+        "lust": 25,
+        "species": "bear",
+        "armor": {},
+        "inventory": {},
+        "location": "start",
+        "status_effects": [],
+        "health_issues": {},
+        "sizes": {
+            "dick": 10,
+            "moobs": 0,
+            "arms": 0,
+            "legs": 0,
+            "balls": 0,
+            "feet": 0
+        },
+        "quests": [],
+        "gold": 0,
+        "xp": 0,
+        "level": 1,
+        "max_health": 200,
+        "max_weight": 360,
+        "max_lust": 100,
+        "max_xp": 100,
+        "furcolor": "brown",
+        "furtexture": "",
+        "lastshower": 0,
+        "lastfood": 0,
+        "lastsleep": 0,
+        "lastpee": 0,
+        "lastpoo": 0,
+        "lastcum": 0,
+        "days": 0,
+        "hunger": 0,
+        "thirst": 0
+    },
+    "map": {
+        "": {
+            "name": "[grey]no way[/grey]"
+        },
+        "start": {
+            "name": "Start",
+            "description": "You are at the start of your adventure. Choose your path.",
+            "exits": {
+                "north": "village",
+                "east": "deepforest",
+                "south": "darkcave",
+                "west": "mountainpass"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": {
+                "weight gain potion": 3,
+                "pizza slice": 1
+            },
+            "NPC": []
+        },
+        "village": {
+            "name": "Village",
+            "description": "You are in a peaceful village. Villagers go about their day.",
+            "exits": {
+                "south": "start",
+                "east": "riverside",
+                "west": "windmill",
+                "north": "castle"
+            },
+            "enemies": [
+                "Goblin",
+                "Orc",
+                "Troll",
+                "Giant",
+                "Dragon"
+            ],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Village Elder",
+                "Merchant"
+            ]
+        },
+        "riverside": {
+            "name": "Riverside",
+            "description": "You are by a calm river. The water gently flows by.",
+            "exits": {
+                "south": "deepforest",
+                "east": "oldbridge",
+                "west": "village",
+                "north": "wizardtower"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Fisherman"
+            ]
+        },
+        "oldbridge": {
+            "name": "Old Bridge",
+            "description": "You stand on an old wooden bridge, overlooking the river.",
+            "exits": {
+                "south": "enchantedmeadow",
+                "west": "riverside",
+                "north": "hauntedhouse"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Bridge Troll"
+            ]
+        },
+        "hauntedhouse": {
+            "name": "Haunted House",
+            "description": "You are in front of a spooky, old house. A chill runs down your spine.",
+            "exits": {
+                "south": "oldbridge"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Ghost"
+            ]
+        },
+        "wizardtower": {
+            "name": "Wizard's Tower",
+            "description": "You are at the base of a tall tower. Magic seems to emanate from it.",
+            "exits": {
+                "south": "riverside"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Wizard"
+            ]
+        },
+        "castle": {
+            "name": "Castle",
+            "description": "You stand before a grand castle. Guards stand at the entrance.",
+            "exits": {
+                "south": "village"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "King",
+                "Queen"
+            ]
+        },
+        "windmill": {
+            "name": "Windmill",
+            "description": "You are at a windmill, overlooking a field of wheat.",
+            "exits": {
+                "east": "village",
+                "north": "mountainpass"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Miller"
+            ]
+        },
+        "mountainpass": {
+            "name": "Mountain Pass",
+            "description": "You are on a narrow pass, with mountains on both sides.",
+            "exits": {
+                "south": "windmill",
+                "east": "start"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Mountain Goat"
+            ]
+        },
+        "deepforest": {
+            "name": "Deep Forest",
+            "description": "You are in a dark, dense forest. It's eerily quiet.",
+            "exits": {
+                "west": "start",
+                "north": "riverside",
+                "east": "enchantedmeadow"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Elf"
+            ]
+        },
+        "enchantedmeadow": {
+            "name": "Enchanted Meadow",
+            "description": "You are in a beautiful meadow. Butterflies flit around and flowers bloom.",
+            "exits": {
+                "west": "deepforest",
+                "north": "oldbridge"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": [
+                "Fairy"
+            ]
+        },
+        "darkcave": {
+            "name": "Dark Cave",
+            "description": "You stand at the entrance of a dark, ominous cave.",
+            "exits": {
+                "north": "start"
+            },
+            "enemies": [],
+            "looked": false,
+            "items": [],
+            "NPC": []
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Belly Size": {
+        "<100": {
+            "sDescription": "Hardly noticeable",
+            "lDescription": "Your belly is very small and tight, barely moving when you walk or move"
+        }
+    }
+}

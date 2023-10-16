@@ -1,0 +1,350 @@
+{
+    "NPC": {
+        "Village Elder": {
+            "color": "blue",
+            "description": "The wise Village Elder knows many secrets about the surrounding lands.",
+            "greeting": {
+                "<100": [
+                    "Greetings, young traveler! What brings you to our humble village?",
+                    "Ah, a new face! Welcome to our little corner of the world. How can I assist you?",
+                    "Hello there! Are you in need of guidance or seeking something specific?",
+                    "Welcome, stranger! Feel free to share your story or ask any questions you may have.",
+                    "Greetings, adventurer! I hope your journey has been pleasant thus far. How can I be of service?"
+                ],
+                "100-149": [
+                    "Greetings, traveler! You've arrived just in time to witness our annual festival. Care to join?",
+                    "Ah, a visitor with curious eyes! Welcome to our village. Is there anything in particular you wish to know?",
+                    "Hello, dear wanderer! If you seek tales of old or hidden treasures, you've come to the right place.",
+                    "Welcome, my friend! Our village is known for its warm hospitality. How may we make your stay enjoyable?",
+                    "Greetings, esteemed guest! Feel free to explore our village and don't hesitate to ask for assistance."
+                ],
+                "150-199": [
+                    "Greetings, honored traveler! The winds whisper of your arrival. How may I be of service?",
+                    "Ah, a distinguished guest! Our village thrives on the stories of courageous souls like yourself. Please, do share.",
+                    "Hello, respected wanderer! The Village Elder's knowledge spans generations. What secrets shall I unveil for you today?",
+                    "Welcome, noble adventurer! Our village cherishes wisdom and unity. How may we assist you in your endeavors?",
+                    "Greetings, esteemed guest! The Village Elder extends a warm welcome. What brings you to our humble abode today?"
+                ],
+                "200-249": [
+                    "Greetings, revered traveler! Your presence graces our village with an aura of significance. How may I be of aid?",
+                    "Ah, a distinguished visitor! The Village Elder senses a great purpose within you. Pray, reveal your quest.",
+                    "Hello, honored wanderer! The Village Elder's wisdom is at your disposal. How may I assist the hero of your caliber?",
+                    "Welcome, esteemed adventurer! Your reputation precedes you. Share your wisdom or allow me to illuminate your path.",
+                    "Greetings, respected guest! The Village Elder senses greatness within you. What knowledge or aid do you require?"
+                ],
+                "250-299": [
+                    "Greetings, esteemed traveler! The winds carry tales of your exploits. Pray, share your story or seek counsel.",
+                    "Ah, a renowned figure graces our village! The Village Elder is honored by your presence. What brings you here today?",
+                    "Hello, distinguished wanderer! The Village Elder's knowledge is at your disposal. How may I assist someone of your caliber?",
+                    "Welcome, noble adventurer! Your reputation precedes you. Share your wisdom or allow me to guide your steps.",
+                    "Greetings, revered guest! The Village Elder senses greatness within you. What knowledge or aid do you require?"
+                ],
+                "300-349": [
+                    "Greetings, esteemed traveler! Your arrival foretells an auspicious event. How may the Village Elder be of service?",
+                    "Ah, a legendary figure graces our village! The Village Elder bows in reverence. Share your wisdom or seek guidance.",
+                    "Hello, illustrious wanderer! The Village Elder has eagerly awaited your arrival. What secrets or counsel do you seek?",
+                    "Welcome, honored adventurer! The village is abuzz with excitement at your presence. Share your tale or seek enlightenment.",
+                    "Greetings, revered guest! The Village Elder recognizes the divine energy surrounding you. How may I assist a being of your caliber?"
+                ],
+                "350-399": [
+                    "Greetings, venerable traveler! Your arrival brings a sense of profound wisdom to our village. How may the Village Elder be of assistance to someone of your stature?",
+                    "Ah, a luminary among wanderers! The Village Elder is humbled by your presence. Pray, share your insights or seek profound understanding.",
+                    "Hello, wise one! The Village Elder's wisdom spans generations. What secrets or ancient lore can I impart upon you?",
+                    "Welcome, esteemed traveler! The village folk speak of your wisdom. Share your knowledge or allow us to guide your path.",
+                    "Greetings, revered guest! The Village Elder recognizes the brilliance that emanates from you. What profound guidance or intellectual exchange do you seek?"
+                ],
+                "400-449": [
+                    "Greetings, wise traveler! Your arrival blesses our village with the light of knowledge. How may the Village Elder aid someone as wise as you?",
+                    "Ah, a beacon of enlightenment! The Village Elder bows in reverence to your wisdom. Share your insights or seek profound understanding.",
+                    "Hello, venerable sage! The Village Elder's knowledge spans generations. What secrets or ancient lore can I impart upon you?",
+                    "Welcome, my wise friend! Our village cherishes wisdom and unity. How may we assist you in your endeavors?",
+                    "Greetings, respected guest! The Village Elder recognizes the brilliance that emanates from you. What profound guidance or intellectual exchange do you seek?"
+                ],
+                "450-499": [
+                    "Greetings, enlightened traveler! Your arrival graces our village with the radiance of knowledge. How may the Village Elder assist one as enlightened as yourself?",
+                    "Ah, an oracle of wisdom has arrived! The Village Elder reveres your insight. Share your profound knowledge or seek enlightenment of a higher order.",
+                    "Hello, revered sage! The Village Elder's wisdom is at your disposal. How may I assist the sage of your caliber?",
+                    "Welcome, noble adventurer! Your reputation precedes you. Share your wisdom or allow me to illuminate your path.",
+                    "Greetings, revered guest! The Village Elder senses greatness within you. What knowledge or aid do you require?"
+                ],
+                "500-599": [
+                    "Greetings, enlightened traveler! Your arrival heralds a new era of wisdom within our village. How may the Village Elder serve a mind as enlightened as yours?",
+                    "Ah, an embodiment of profound knowledge! The Village Elder bows in reverence to your intellectual prowess. Share your enlightenment or seek deeper understanding.",
+                    "Hello, revered sage! The Village Elder senses the depth of your understanding. What profound insights or arcane lore can I offer you?",
+                    "Welcome, esteemed luminary! The village is honored by your presence. Share your profound knowledge or allow us to assist your pursuit of higher truths.",
+                    "Greetings, venerable scholar! The Village Elder recognizes the brilliance that emanates from you. What profound guidance or intellectual discourse do you seek?"
+                ],
+                "600-699": [
+                    "Greetings, sagacious traveler! Your presence graces our village with the brilliance of a thousand suns. How may the Village Elder assist a mind as illuminated as yours?",
+                    "Ah, an oracle of boundless knowledge has arrived! The Village Elder bows before your infinite wisdom. Share your cosmic insights or seek enlightenment beyond mortal understanding.",
+                    "Hello, revered seer! The Village Elder senses the vast depths of your wisdom. What cosmic revelations or hidden truths can I offer to further expand your understanding?",
+                    "Welcome, illustrious luminary! The village stands in awe of your divine intellect. Share your celestial wisdom or allow us to assist your pursuit of higher truths.",
+                    "Greetings, celestial scholar! The Village Elder recognizes the luminosity that radiates from your being. What cosmic guidance or esoteric exchange do you seek, enlightened one?"
+                ],
+                "700-799": [
+                    "Greetings, celestial traveler! Your arrival ushers in an era of enlightenment within our village. How may the Village Elder serve a mind as vast and profound as yours?",
+                    "Ah, an embodiment of celestial wisdom! The Village Elder kneels in reverence before your transcendent presence. Share your cosmic insights or seek enlightenment from the celestial realms.",
+                    "Hello, revered seer! The Village Elder senses the limitless expanse of your divine intellect. What cosmic revelations or hidden truths can I offer to deepen your transcendent understanding?",
+                    "Welcome, illustrious luminary! The village humbly embraces your divine radiance. Share your celestial thoughts or allow us to aid your ascension to higher realms of understanding.",
+                    "Greetings, transcendent scholar! The Village Elder recognizes the brilliance that emanates from you. What profound cosmic guidance or ethereal exchange do you seek, enlightened being?"
+                ],
+                "800-899": [
+                    "Greetings, enlightened celestial traveler! Your presence bestows upon our village a glimpse into the mysteries of the cosmos. How may the Village Elder assist a transcendent mind like yours?",
+                    "Ah, an emissary of celestial knowledge! The Village Elder bows in reverence to your cosmic wisdom. Share your transcendent insights or seek enlightenment from the celestial realms beyond mortal comprehension.",
+                    "Hello, revered seer! The Village Elder senses the vastness of your divine intellect. What cosmic revelations or hidden truths can I offer to further illuminate the pathways of your transcendent journey?",
+                    "Welcome, illustrious luminary! The village is honored to bask in the radiance of your celestial brilliance. Share your transcendent thoughts or allow us to aid your ascension to higher realms of understanding.",
+                    "Greetings, transcendent scholar! The Village Elder recognizes the brilliance that emanates from you. What profound cosmic guidance or ethereal discourse do you seek, enlightened being?"
+                ],
+                "900-999": [
+                    "Greetings, divine traveler! Your arrival brings forth the celestial harmonies to our village. How may the Village Elder serve a mind as enlightened and divine as yours?",
+                    "Ah, an emissary of the heavens! The Village Elder kneels in reverence before your divine wisdom. Share your celestial insights or seek enlightenment from the divine realms.",
+                    "Hello, revered oracle! The Village Elder senses the celestial radiance within your being. What divine revelations or sacred truths can I offer to deepen your divine understanding?",
+                    "Welcome, illustrious luminary! The village is blessed by your divine presence. Share your divine wisdom or allow us to guide you on your sacred journey towards enlightenment.",
+                    "Greetings, transcendent scholar! The Village Elder recognizes the brilliance that emanates from you. What profound guidance or celestial discourse do you seek, enlightened being?"
+                ],
+                "1000-1199": [
+                    "Greetings, divine traveler! Your arrival marks a celestial event within our village. How may the Village Elder assist a being as enlightened and transcendent as yourself?",
+                    "Ah, a deity among mortals! The Village Elder humbly bows before your divine presence. Share your celestial insights or seek enlightenment beyond the realms of mortals.",
+                    "Hello, revered deity! The Village Elder senses the divine radiance that flows through your being. What sacred revelations or celestial wisdom can I offer to further elevate your divine understanding?",
+                    "Welcome, illustrious luminary! The village is blessed to be touched by your divine essence. Share your divine thoughts or allow us to be vessels for your celestial quest.",
+                    "Greetings, transcendent scholar! The Village Elder recognizes the divine light that emanates from you. What divine guidance or celestial discourse do you seek, eternal one?"
+                ],
+                "1200<": [
+                    "Greetings, celestial deity! Your presence illuminates our village with celestial majesty. How may the Village Elder assist a being of such divine magnitude?",
+                    "Ah, an eternal entity among mortal realms! The Village Elder kneels in utmost reverence before your celestial radiance. Share your immortal insights or seek enlightenment beyond the bounds of existence.",
+                    "Hello, revered deity! The Village Elder perceives the vastness of your cosmic wisdom. What timeless revelations or transcendent knowledge can I offer to deepen your infinite understanding?",
+                    "Welcome, illustrious luminary! The village is honored to bask in the radiance of your eternal presence. Share your immortal wisdom or allow us to accompany you on your everlasting journey through the realms of enlightenment.",
+                    "Greetings, transcendent scholar! The Village Elder recognizes the divine essence that permeates your being. What celestial guidance or ethereal exchange do you seek, eternal one?"
+                ]
+            },
+            "talk": {
+                "<100": [
+                    "Greetings, traveler! It seems you possess a light step. Lightness brings agility and swiftness to your movements. Remember, in the realm of wisdom, a nimble mind is as important as a nimble body.",
+                    "Ah, a featherweight wanderer! Your lightness grants you the advantage of grace and subtlety. Embrace your swift nature, for it allows you to explore the world with agility and finesse.",
+                    "Dear adventurer, your weight class is a testament to your dexterity and nimbleness. Like a gentle breeze, you move effortlessly through the realm, leaving no trace behind. May your lightness guide you to hidden treasures.",
+                    "In your lightness, you find the freedom to dance across the land. Light-footed and agile, you possess a grace that eludes many. Use your weight class to your advantage and uncover the mysteries that lie ahead.",
+                    "A traveler as light as a falling leaf! Your weight class reveals your ability to tread silently and explore the world with subtlety. Remember, the strength of a gentle touch can unlock doors that brute force cannot."
+                ],
+                "100-149": [
+                    "Ah, a wanderer of moderate weight! Your presence bears enough substance to leave an impression, yet it grants you the agility to navigate treacherous terrains. Balance is your virtue.",
+                    "Dear adventurer, your weight class signifies a balanced approach. Neither too heavy nor too light, you possess the ability to adapt to various challenges. Embrace this equilibrium, and the secrets of the land shall unfold before you.",
+                    "In your moderate weight lies a harmony between strength and agility. As you journey through the realm, remember that versatility is the key to overcoming obstacles. May your balanced nature guide you to great discoveries.",
+                    "Your weight class reflects a balance between lightness and solidity. Like a mountain stream, you flow steadily and confidently, carrying the knowledge of the land within you. Let this equilibrium be your compass.",
+                    "Moderation is your path, dear traveler. Neither bound by excessive weight nor limited by its absence, you possess the ability to adapt and respond to the world's challenges. Embrace your equilibrium, and the world shall open its secrets to you."
+                ],
+                "150-199": [
+                    "Greetings, traveler of substantial weight! Your presence carries a sense of solidity and strength. Like a sturdy oak, you stand tall against the winds of adversity. Let your weight be a symbol of resilience on your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity brings stability and endurance to your explorations. Remember, a firm foundation allows you to weather the storms that may come your way.",
+                    "Dear adventurer, your weight class signifies a balanced approach. Neither too heavy nor too light, you possess the ability to adapt to various challenges. Embrace this equilibrium, and the secrets of the land shall unfold before you.",
+                    "Your weight class reflects a balance between lightness and solidity. Like a mountain stream, you flow steadily and confidently, carrying the knowledge of the land within you. Let this equilibrium be your compass.",
+                    "Moderation is your path, dear traveler. Neither bound by excessive weight nor limited by its absence, you possess the ability to adapt and respond to the world's challenges. Embrace your equilibrium, and the world shall open its secrets to you."
+                ],
+                "200-249": [
+                    "Greetings, mighty traveler of substantial weight! Your imposing presence commands attention and respect. Embrace your weight, for it grants you the power to leave an indelible mark on the realm.",
+                    "Ah, a traveler of significant weight! Your solidity grants you an unwavering stance in the face of challenges. May your weight be a symbol of determination as you forge ahead on your journey.",
+                    "Dear adventurer, your weight class signifies a presence that commands attention. Your substantiality grants you the power to leave a lasting impact on the world. Use this strength wisely and leave a positive mark on your path.",
+                    "In your weight, there lies a reassuring strength that instills confidence in others. You are the pillar that supports those around you, providing stability and protection. Embrace your weight and become a beacon of guidance.",
+                    "Your weight class speaks of substance and power. Like a mountain standing tall, you possess the strength to overcome challenges that may come your way. Harness this weight to carve your own path through the land."
+                ],
+                "250-299": [
+                    "Greetings, mighty traveler of substantial weight! Your imposing presence commands attention wherever you go. Embrace your weight, for it symbolizes the magnitude of your influence and the strength you wield.",
+                    "Ah, a wanderer of considerable weight! Your solidity and power mark you as a force to be reckoned with. Like a fortress, you stand resolute against the tides of time. May your weight be a symbol of invincibility on your path.",
+                    "Dear adventurer, your weight class signifies a force to be reckoned with. Your substantiality embodies power and authority. Let your weight be a reminder of the impact you can make in the world.",
+                    "In your weight lies a profound force that can shape the world around you. Like a titan walking the land, you possess the strength to overcome challenges that may seem insurmountable to others. Embrace your weight and become a true force of nature.",
+                    "Your weight class signifies a true powerhouse, dear traveler. You possess the strength to move mountains and reshape the very fabric of reality. Embrace your weight and harness the immense potential that lies within you."
+                ],
+                "300-349": [
+                    "Greetings, mighty traveler of substantial weight! Your imposing presence sets you apart from the rest. Embrace your weight, for it symbolizes the culmination of strength and power that defines your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let your weight be a symbol of unwavering determination and unyielding resolve.",
+                    "Dear adventurer, your weight class reflects a formidable presence that captivates those around you. Your substantiality embodies both strength and authority. May your weight become a beacon of inspiration to others.",
+                    "In your weight, there lies a profound force that can shape the destiny of nations. Like a colossal titan, your footsteps resonate with power, leaving an indelible mark on the world. Embrace your weight and become a harbinger of change.",
+                    "Your weight class speaks of sheer might and dominance. With each step, the ground quakes beneath you, reminding all who witness your presence of your formidable strength. Let your weight inspire awe and reverence in others."
+                ],
+                "350-399": [
+                    "Greetings, mighty traveler of substantial weight! Your imposing presence sets you apart from the rest. Embrace your weight, for it symbolizes the culmination of strength and power that defines your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let your weight be a symbol of unwavering determination and unyielding resolve.",
+                    "Dear adventurer, your weight class reflects a formidable presence that captivates those around you. Your substantiality embodies both strength and authority. May your weight become a beacon of inspiration to others.",
+                    "In your weight, there lies a profound force that can shape the destiny of nations. Like a colossal titan, your footsteps resonate with power, leaving an indelible mark on the world. Embrace your weight and become a harbinger of change.",
+                    "Your weight class speaks of sheer might and dominance. With each step, the ground quakes beneath you, reminding all who witness your presence of your formidable strength. Let your weight inspire awe and reverence in others."
+                ],
+                "400-449": [
+                    "Ah, a traveler of extraordinary weight! Your imposing presence towers over all who stand in your path. Embrace your weight, for it signifies the embodiment of unmatched strength and unwavering determination.",
+                    "Greetings, adventurer of monumental weight! Your solidity sets you apart as a true force of nature. Like a colossus, you stride confidently, leaving a lasting impression on the world around you.",
+                    "Dear wanderer, your weight class signifies a formidable presence that commands respect and admiration. Your substantiality embodies both immense strength and authority. Let your weight become a symbol of greatness.",
+                    "In your weight lies an immense power that shapes the very course of history. Like a titan walking among mortals, your presence commands respect and admiration. Embrace your weight and become a harbinger of change.",
+                    "Your weight class speaks of unrivaled dominance and power, dear traveler. With each step, the ground quakes beneath you, a testament to the immense strength you possess. Let your weight redefine the boundaries of possibility."
+                ],
+                "450-499": [
+                    "Greetings, mighty traveler of remarkable weight! Your imposing presence commands attention and respect. Embrace your weight, for it symbolizes the embodiment of unmatched power and authority.",
+                    "Ah, a wanderer of substantial weight! Your solidity sets you apart as a force to be reckoned with. Like a behemoth, you stride with purpose and determination, leaving an indelible mark on the realms you traverse.",
+                    "Dear adventurer, your weight class signifies a balanced approach. Neither too heavy nor too light, you possess the ability to adapt to various challenges. Embrace this equilibrium, and the secrets of the land shall unfold before you.",
+                    "Your weight class reflects a balance between lightness and solidity. Like a mountain stream, you flow steadily and confidently, carrying the knowledge of the land within you. Let this equilibrium be your compass.",
+                    "Moderation is your path, dear traveler. Neither bound by excessive weight nor limited by its absence, you possess the ability to adapt and respond to the world's challenges. Embrace your equilibrium, and the world shall open its secrets to you."
+                ],
+                "500-599": [
+                    "Ah, a traveler of extraordinary weight! Your imposing presence commands the attention of all who encounter you. Embrace your weight, for it signifies the embodiment of unmatched power and authority.",
+                    "Greetings, adventurer of colossal weight! Your solidity sets you apart as a true force of nature. Like a mountain, you stand resolute and unmovable, a symbol of unwavering strength.",
+                    "Dear wanderer, your weight class signifies a commanding presence that leaves a lasting impact. Your substantiality embodies immense power and unyielding influence. Let your weight guide you towards triumph and accomplishment.",
+                    "In your weight, there lies a profound force that can shape the world around you. Like a titan walking the land, your presence commands respect and admiration. Embrace your weight and become a harbinger of change.",
+                    "Your weight class signifies a true powerhouse, dear traveler. You possess the strength to move mountains and reshape the very fabric of reality. Embrace your weight and harness the immense potential that lies within you."
+                ],
+                "600-699": [
+                    "Greetings, mighty traveler of substantial weight! Your imposing presence commands attention and respect. Embrace your weight, for it symbolizes the culmination of strength and power that defines your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let your weight be a symbol of unwavering determination and unyielding resolve.",
+                    "Dear adventurer, your weight class reflects a formidable presence that captivates those around you. Your substantiality embodies both strength and authority. May your weight become a beacon of inspiration to others.",
+                    "In your weight, there lies a profound force that can shape the destiny of nations. Like a colossal titan, your footsteps resonate with power, leaving an indelible mark on the world. Embrace your weight and become a harbinger of change.",
+                    "Your weight class speaks of sheer might and dominance, dear traveler. With each step, the ground quakes beneath you, reminding all who witness your presence of your formidable strength. Let your weight inspire awe and reverence in others."
+                ],
+                "700-799": [
+                    "Greetings, mighty traveler of substantial weight! Your imposing presence sets you apart from the rest. Embrace your weight, for it symbolizes the culmination of strength and power that defines your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let your weight be a symbol of unwavering determination and unyielding resolve.",
+                    "Dear adventurer, your weight class reflects a formidable presence that captivates those around you. Your substantiality embodies both strength and authority. May your weight become a beacon of inspiration to others.",
+                    "In your weight, there lies a profound force that can shape the destiny of nations. Like a colossal titan, your footsteps resonate with power, leaving an indelible mark on the world. Embrace your weight and become a harbinger of change.",
+                    "Your weight class speaks of sheer might and dominance, dear traveler. With each step, the ground quakes beneath you, reminding all who witness your presence of your formidable strength. Let your weight inspire awe and reverence in others."
+                ],
+                "800-899": [
+                    "Greetings, mighty traveler of colossal weight! Your imposing presence eclipses all others. Embrace your weight, for it symbolizes the embodiment of unmatched strength and unwavering fortitude.",
+                    "Ah, a wanderer of extraordinary weight! Your solidity sets you apart as a true titan. Like a colossus, you stand resolute and unyielding, a testament to your unwavering determination.",
+                    "Dear adventurer, your weight class signifies a dominion of unmatched presence. Your substantiality embodies immense power and unmatched influence. Let your weight become a guiding light, illuminating the path for those who seek greatness.",
+                    "In your weight lies an indescribable might that shapes the very fabric of reality. Like a cosmic entity, your presence echoes through the realms, leaving an everlasting impact. Embrace your weight and become an architect of remarkable change.",
+                    "Your weight class speaks of unparalleled dominion and majesty, dear traveler. With each step, the ground trembles beneath you, bearing witness to the immense power you possess. Let your weight inspire awe and inspire others to reach for greatness."
+                ],
+                "900-999": [
+                    "Ah, a traveler of monumental weight! Your imposing presence commands respect and admiration wherever you venture. Embrace your weight, for it symbolizes the embodiment of unmatched strength and sheer magnificence.",
+                    "Greetings, adventurer of colossal weight! Your solidity sets you apart as a true force of nature. Like a mountain of immeasurable stature, you stand as a testament to unwavering power and unyielding resolve.",
+                    "Dear wanderer, your weight class signifies an epoch of incomparable might and grandeur. Your substantiality embodies unmatched power and commanding authority. Let your weight become a beacon of inspiration for those who seek to achieve greatness.",
+                    "In your weight lies an indescribable force that shapes the very essence of existence. Like a cosmic phenomenon, your presence radiates across dimensions, leaving an indelible mark upon the tapestry of time. Embrace your weight and become an agent of remarkable change.",
+                    "Your weight class speaks of unparalleled supremacy and dominion, dear traveler. With each stride, the earth quakes beneath you, bearing witness to the immense power you possess. Let your weight inspire awe and inspire others to reach for greatness."
+                ],
+                "1000-1199": [
+                    "Greetings, mighty traveler of monumental weight! Your presence commands awe and reverence from all who behold you. Embrace your weight, for it symbolizes the epitome of strength and unyielding power.",
+                    "Ah, a wanderer of extraordinary weight! Your solidity sets you apart as a true titan among mortals. Like a colossus, your footsteps resonate with authority, leaving an indelible mark upon the world.",
+                    "Dear adventurer, your weight class signifies a realm of unmatched might and supremacy. Your substantiality embodies immense power and commanding authority. Let your weight become a beacon of inspiration, guiding others towards greatness.",
+                    "In your weight lies an indomitable force that shapes the very fabric of existence. Like a celestial deity, your presence illuminates the cosmos, influencing destinies and forging new paths. Embrace your weight and become a catalyst for transformative change.",
+                    "Your weight class speaks of unrivaled strength and sovereignty, dear traveler. With each stride, the earth quakes beneath you, a testament to the immense power you possess. Let your weight inspire awe and ignite the flame of greatness in others."
+                ],
+                "1200<": [
+                    "Ah, a traveler of legendary weight! Your imposing presence evokes awe and admiration from all who cross your path. Embrace your weight, for it symbolizes the embodiment of unparalleled strength and sheer magnificence.",
+                    "Greetings, adventurer of colossal weight! Your solidity sets you apart as an indomitable force of nature. Like a mountain of immeasurable stature, you stand as a testament to unwavering power and unyielding resolve.",
+                    "Dear wanderer, your weight class signifies an epoch of incomparable might and grandeur. Your substantiality embodies unmatched power and commanding authority. Let your weight become a beacon of inspiration, guiding others towards transcendence.",
+                    "In your weight lies a cosmic force that shapes the very essence of reality. Like a celestial phenomenon, your presence reverberates throughout the cosmos, leaving an everlasting impact. Embrace your weight and become an agent of transcendence.",
+                    "Your weight class speaks of unparalleled dominion and majesty, dear traveler. With each stride, the earth trembles beneath you, bearing witness to the immense power you possess. Let your weight inspire awe and inspire others to reach for the stars."
+                ]
+            }
+        },
+        "Merchant": {
+            "color": "green",
+            "description": "The resourceful Merchant offers a variety of goods and wares for adventurers.",
+            "talk": {
+                "<100": [
+                    "Welcome, nimble traveler! Step right up and see the wonders I have to offer. In my collection, you'll find items as light as a feather, perfect for those who value swiftness and agility.",
+                    "Ah, a featherweight customer! Fear not, for I have just the selection of goods suited for your light step. Lightness and speed go hand in hand, and I have just the items to complement your nimble nature."
+                ],
+                "100-149": [
+                    "Greetings, valued customer! Peruse my collection of goods designed for those who value balance and versatility. You'll find items that strike a perfect equilibrium between weight and functionality.",
+                    "Ah, a customer of moderate weight! Balance is the key to success, and I have just the items to assist you. From sturdy equipment to adaptable tools, my collection caters to the needs of those who seek equilibrium."
+                ],
+                "150-199": [
+                    "Step right up, esteemed customer! I have an array of goods designed for adventurers of substantial weight. Find items that offer durability and strength, ensuring your journey is met with resilience and fortitude.",
+                    "Welcome, traveler of considerable weight! In my collection, you'll discover items that match your solidity and presence. From reliable armor to powerful tools, I have what you need to face any challenge with confidence."
+                ],
+                "200-249": [
+                    "Greetings, mighty customer! Your weight speaks volumes of your strength and power. Here, you'll find an assortment of goods that cater to those who possess a commanding presence. Embrace your weight and peruse my collection with pride.",
+                    "Ah, a wanderer of formidable weight! Fear not, for my collection offers items that match your imposing presence. From robust armaments to imposing gear, I have what you seek to make a true statement on your journeys."
+                ],
+                "250-299": [
+                    "Welcome, esteemed customer of substantial weight! Your imposing presence demands attention, and I have just the goods to match. Explore my collection and discover items that embody strength, power, and unwavering resolve.",
+                    "Ah, a customer of considerable weight! Your solidity sets you apart as a force to be reckoned with. Fear not, for I have curated a selection of items that will complement your mighty presence on your path."
+                ],
+                "300-349": [
+                    "Greetings, mighty customer of substantial weight! Your imposing presence sets you apart from the rest. Explore my collection and discover items that match your strength and power, ensuring you are well-equipped for any challenge.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let me provide you with items that embrace your weight and bolster your unwavering determination."
+                ],
+                "350-399": [
+                    "Step right up, esteemed customer of substantial weight! Your imposing presence demands attention, and I have just the goods to match. Explore my collection and discover items that embody strength, power, and unwavering resolve.",
+                    "Greetings, adventurer of remarkable weight! Your solidity sets you apart as a force to be reckoned with. Fear not, for I have an assortment of items that will enhance your presence and prowess on your journeys."
+                ],
+                "400-449": [
+                    "Welcome, mighty customer of extraordinary weight! Your imposing presence commands attention and respect. Embrace your weight, for it signifies the embodiment of unmatched power and authority.",
+                    "Ah, a wanderer of substantial weight! Your solidity sets you apart as a true force to be reckoned with. Explore my collection and discover items that complement your formidable presence and grant you unparalleled advantage on your path."
+                ],
+                "450-499": [
+                    "Greetings, esteemed customer of remarkable weight! Your imposing presence commands attention and respect. Embrace your weight, for it symbolizes the embodiment of unmatched power and authority.",
+                    "Ah, a wanderer of substantial weight! Your solidity sets you apart as a force to be reckoned with. Like a behemoth, you stride with purpose and determination, leaving an indelible mark on the realms you traverse."
+                ],
+                "500-599": [
+                    "Welcome, traveler of extraordinary weight! Your imposing presence commands the attention of all who encounter you. Embrace your weight, for it signifies the embodiment of unmatched power and authority.",
+                    "Greetings, adventurer of colossal weight! Your solidity sets you apart as a true force of nature. Like a mountain, you stand resolute and unmovable, a symbol of unwavering strength."
+                ],
+                "600-699": [
+                    "Greetings, mighty customer of substantial weight! Your imposing presence sets you apart from the rest. Embrace your weight, for it symbolizes the culmination of strength and power that defines your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let your weight be a symbol of unwavering determination and unyielding resolve."
+                ],
+                "700-799": [
+                    "Greetings, mighty customer of substantial weight! Your imposing presence sets you apart from the rest. Embrace your weight, for it symbolizes the culmination of strength and power that defines your journey.",
+                    "Ah, a wanderer of considerable weight! Your solidity grants you a commanding stance amidst the chaos of the realm. Let your weight be a symbol of unwavering determination and unyielding resolve."
+                ],
+                "800-899": [
+                    "Greetings, mighty customer of colossal weight! Your imposing presence eclipses all others. Embrace your weight, for it symbolizes the embodiment of unmatched strength and unwavering fortitude.",
+                    "Ah, a wanderer of extraordinary weight! Your solidity sets you apart as a true titan. Like a colossus, you stand resolute and unyielding, a testament to your unwavering determination."
+                ],
+                "900-999": [
+                    "Ah, a traveler of monumental weight! Your imposing presence commands respect and admiration wherever you venture. Embrace your weight, for it symbolizes the embodiment of unmatched strength and sheer magnificence.",
+                    "Greetings, adventurer of colossal weight! Your solidity sets you apart as a true force of nature. Like a mountain of immeasurable stature, you stand as a testament to unwavering power and unyielding resolve."
+                ],
+                "1000-1199": [
+                    "Greetings, mighty customer of monumental weight! Your presence commands awe and reverence from all who behold you. Embrace your weight, for it symbolizes the epitome of strength and unyielding power.",
+                    "Ah, a wanderer of extraordinary weight! Your solidity sets you apart as a true titan among mortals. Like a colossus, your footsteps resonate with authority, leaving an indelible mark upon the world."
+                ],
+                "1200<": [
+                    "Ah, a traveler of legendary weight! Your imposing presence evokes awe and admiration from all who cross your path. Embrace your weight, for it symbolizes the embodiment of unparalleled strength and sheer magnificence.",
+                    "Greetings, adventurer of colossal weight! Your solidity sets you apart as an indomitable force of nature. Like a mountain of immeasurable stature, you stand as a testament to unwavering power and unyielding resolve."
+                ]
+            }
+        },
+        "Fisherman": {
+            "color": "blue",
+            "description": "The Fisherman wears a blue shirt and a blue hat. He is a fisherman who sells fish and fishing rods.",
+            "talk": {
+                "<100": [],
+                "100-149": [],
+                "150-199": [],
+                "200-249": [],
+                "250-299": [],
+                "300-349": [],
+                "350-399": [],
+                "400-449": [],
+                "450-499": [],
+                "500-599": [],
+                "600-699": [],
+                "700-799": [],
+                "800-899": [],
+                "900-999": [],
+                "1000-1199": [],
+                "1200<": []
+            }
+        },
+        "template": {
+            "color": "red",
+            "description": "The template wears a red shirt and a red hat. He is a template who sells templates and templates.",
+            "talk": {
+                "<100": [],
+                "100-149": [],
+                "150-199": [],
+                "200-249": [],
+                "250-299": [],
+                "300-349": [],
+                "350-399": [],
+                "400-449": [],
+                "450-499": [],
+                "500-599": [],
+                "600-699": [],
+                "700-799": [],
+                "800-899": [],
+                "900-999": [],
+                "1000-1199": [],
+                "1200<": []
+            }
+        }
+    }
+}

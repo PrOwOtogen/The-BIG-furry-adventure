@@ -1,0 +1,97 @@
+self.name = "Fuzzy"
+self.health = 75
+self.weight = 150 lbs
+self.defense = 25
+self.clean = 80%
+self.attack = 20
+self.lust = 10
+self.species = "Bear"
+self.armor = ["Leather Armor"]
+self.inventory = ["Bag of Apples", "Potion of Health", "Wooden Shield"]
+self.location = "Forest"
+self.status_effects = []
+self.health_issues = {}
+self.quests = ["The Lost Village"]
+self.gold = 200
+self.xp = 400
+self.level = 3
+
+Appearence:
+Fuzzy is a large and imposing bear, standing at 6 feet tall on his hind legs. His fur is a rich brown color and is soft to the touch. He has a round belly that jiggles when he moves and large, powerful arms. He wears a leather armor that covers his chest and arms, and has a wooden shield strapped to his back.
+
+Scent:
+Fuzzy has a strong and musky scent, common to his species. He has been traveling for days and his scent is mixed with the smell of sweat and dirt.
+
+Health Issues:
+None.```
+
+##################TEMPLATES#########################
+
+Appearence:
+{player_name} is a {player_species}, standing at {height} feet tall on their {legs_type}. Their fur is {fur_color} and is {fur_texture}. They have a {belly_shape} belly that {belly_movement} when they move and {arms_type}. They wear {armor_type} that covers their {body_parts_covered} and have a {shield_type} strapped to their back.
+
+Scent:
+{player_name} has a {scent_strength} and {scent_type} scent, common to their species. They have been traveling for {time_traveling} and their scent is mixed with the smell of {sweat_smell} and {dirt_smell}.
+
+Health Issues:
+{health_issues}```
+
+You can then fill in the variables with the information you want to include in your player description.
+
+
+belly jiggle SIZE CHART
+
+<100	Hardly noticeable	Your belly is very small and tight, barely moving when you walk or move.
+100-149	Slight jiggling	Your belly is small and slightly round, jiggling just a little when you walk or move.
+150-199	Gentle sway	Your belly is medium-sized and round, swaying gently when you walk or move.
+200-249	Noticeable jiggling	Your belly is large and round, jiggling noticeably when you walk or move.
+250-299	Bouncy jiggling	Your belly is very large and round, bouncing and jiggling vigorously when you walk or move.
+300-349	Rolling	Your belly is huge and round, rolling and swaying when you walk or move.
+350-399	Heavily jiggling	Your belly is enormous and round, jiggling heavily when you walk or move, making it difficult to balance.
+400-449	Wobbling	Your belly is massive and round, wobbling heavily when you walk or move, making it a struggle to keep your balance.
+450-499	Uncontrollable jiggling	Your belly is so huge and round that it jiggles uncontrollably when you walk or move, making it nearly impossible to maintain your balance.
+500-599	Unmanageable wobbling	Your belly is incredibly huge and round, wobbling so heavily that it is nearly impossible to move without falling.
+600-699	Struggling to move	Your belly is beyond huge and round, making it difficult to move at all. You struggle to balance and find yourself out of breath just from walking.
+700-799	Barely able to move	Your belly is so massive and round that it is a struggle to move at all. You can barely balance and have to rest frequently just from walking.
+800-899	Immobile	Your belly is so huge and round that you can barely move, requiring assistance to get around.
+900-999	Completely immobile	Your belly is so massive that you are unable to move, relying on others to care for you.
+1000-1199	Helpless	Your belly is so huge that you are completely helpless, unable to move or care for yourself.
+1200<	Limitless	Your belly has reached truly epic proportions, growing beyond any imaginable limits. You are unable to move or care for yourself, relying entirely on others for your every need.
+
+Legs SIZE CHART
+0-100 lbs	Skinny	Your legs are thin and toned, easily fitting into skinny jeans and able to move quickly and easily.
+100-200 lbs	Slim	Your legs are slender, with a bit of muscle definition showing through. They're flexible and allow you to move with ease.
+200-300 lbs	Average	Your legs have a moderate amount of meat on them, they're not too thin or too thick. You're able to move around with ease, but your legs may jiggle a bit when you walk.
+300-400 lbs	Plump	Your legs are plump and juicy, filled with soft layers of fat. They're strong enough to support your weight, but your legs jiggle with every step.
+400-500 lbs	Thick	Your legs are thick and sturdy, filled with juicy layers of fat. They're strong enough to support your weight and allow you to move around without much difficulty.
+500-600 lbs	Chunky	Your legs are incredibly chunky, with large rolls of fat that jiggle with every step. They are strong and supportive, but you may experience a bit of difficulty with mobility.
+600-700 lbs	Heavyset	Your legs are heavily set, with massive rolls of fat that jiggle with every step. They are strong and supportive, but you may experience a bit of difficulty with mobility.
+700-800 lbs	Massively Overweight	Your legs are so large that they struggle to support your massive weight. You have difficulty moving and standing, but your legs are still thick and strong.
+800-900 lbs	Extremely Obese	Your legs are massive, with rolls of fat that hang down and make it difficult to move. Your legs are incredibly strong, but they can barely carry your weight.
+900-1000 lbs	Gigantic	Your legs are gigantic, with massive rolls of fat that completely engulf your shoes. You have extreme difficulty moving, but your legs are incredibly strong.
+1000-1100 lbs	Monstrous	Your legs are monstrous, with layers upon layers of fat that completely obscure your feet. You have extreme difficulty moving, but your legs are incredibly strong and supportive.
+1100-1200 lbs	Colossal	Your legs are colossal, with massive rolls of fat that hang down and drag behind you as you move. You have extreme difficulty moving, but your legs are incredibly strong and supportive.
+
+
+
+ARM SIZE
+100 lbs | Thin | Your arms are slender and wiry, with veins clearly visible under the skin.
+200 lbs | Slender | Your arms have filled out slightly, but still retain a lean and toned appearance.
+300 lbs | Average | Your arms are of average size, fitting comfortably within the typical range.
+400 lbs | Plump | Your arms have become soft and plump, with a slight jiggle when you move.
+500 lbs | Chubby | Your arms are noticeably chubby, with a distinct layer of fat covering the muscle.
+600 lbs | Heavy | Your arms are heavy and dense, with rolls of fat hanging from the upper arms.
+700 lbs | Overflowing | Your arms are overflowing with excess fat, spilling out from tight sleeves.
+800 lbs | Bulbous | Your arms are bulbous and round, resembling massive cushions of flab.
+900 lbs | Gigantic | Your arms are gigantic, rivaling the size of some small tree trunks.
+1000 lbs | Monumental | Your arms are monumental, awe-inspiring masses of flesh that dwarf all others.
+1100 lbs | Titanic | Your arms are titanic, monumental structures of flesh that defy all expectations.
+1200 lbs | Beyond Measure | Your arms are beyond measure, so massive that they strain the limits of your body.
+
+CLEAN
+0% | Filthy | You are covered head to toe in grime and dirt. Your fur is matted and oily, your skin is covered in sores and scabs, and you emit a foul odor that assaults the senses. | The smell of your body is overpowering, a noxious mixture of sweat, urine, and feces that fills the air and clings to everything it touches.
+20% | Dirty | You are in dire need of a bath. Your fur is greasy and matted, your skin is covered in a thin film of sweat, and you emit a noticeable odor. | Your body odor is strong, a pungent combination of sweat, body oils, and bacteria that permeates the air and makes others recoil.
+40% | Unclean | You are not quite as dirty as you were before, but you are still in need of some grooming. Your fur is unkempt and tangled, your skin is slick with sweat, and you emit a faint odor. | Your scent is noticeable, a blend of body odor and mustiness that clings to your fur and skin.
+60% | Slightly Dirty | You are looking somewhat presentable, but still could use some grooming. Your fur is starting to look a bit wild, your skin is still slightly damp, and you emit a barely noticeable odor. | Your scent is not as strong as it was before, but it is still there, a faint trace of body odor that clings to your fur and skin.
+80% | Presentable | You are starting to look quite presentable, but there are still some signs of dirt and grime. Your fur is relatively neat and tidy, your skin is mostly dry, and you emit only a faint odor. | Your scent is not overpowering, but it is still there, a hint of body odor that is only noticeable up close.
+100% | Clean | You are spotless and immaculate. Your fur is smooth and shiny, your skin is clean and dry, and you emit no noticeable odor. | Your scent is nonexistent, leaving no trace of body odor or any other unpleasant smells.
